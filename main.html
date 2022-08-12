@@ -43,22 +43,22 @@
     <div class="header_main_menu">
         <div class="header_main_menu_item">
             <p>
-                <a href="">Документы</a>
+                <a data-id="about-documents" class="header_main_menu__link" href="">Документы</a>
             </p>
         </div>
         <div class="header_main_menu_item">
             <p>
-                <a href="">О департаменте</a>
+                <a data-id="about-department" class="header_main_menu__link" href="">О департаменте</a>
              </p>
         </div>
         <div class="header_main_menu_item">
             <p>
-                <a href="">Деятельность</a>
+                <a data-id="about-statistics" class="header_main_menu__link" href="">Деятельность</a>
             </p>
         </div>
         <div class="header_main_menu_item">
             <p>
-                <a href="">Структура</a>
+                <a data-id="about-structure" class="header_main_menu__link" href="">Структура</a>
             </p>
         </div>
         <!-- Меню-иконки -->
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="clear"></div>
-        <div class="content_documents_list">
+        <div id="about-documents" class="content_documents_list">
             <div class="content_documents_list_item">
                 <div class="content_documents_list_item_label">
                     <p>Еженедельный дайджест новостей ИТ</p>
@@ -247,7 +247,7 @@
 
 <div class="clear"></div>
 <!-- Левое меню -->
-<div class="content_menu">
+<div id="about-department" class="content_menu">
     <div class="content_menu_left">
         <div class="content_menu_left_item">
             <p>Департамент 651</p>
@@ -332,7 +332,7 @@
 
 <div class="clear"></div>
 <!-- Статистика -->
-<div class="content_statistics">
+<div id="about-statistics" class="content_statistics">
     <div class="content_statistics_item">
         <p class="content_statistics_item_count_b">86</p>
         <p class="content_statistics_item_text">квалифицированных работников департамента</p>
@@ -360,7 +360,7 @@
     </div>
     <div class="clear"></div>
     <!-- НАчальник департамента -->
-    <div class="content_structure_head">
+    <div id="about-structure" class="content_structure_head">
         <div class="content_structure_head_photo">
             <img src="./img/photo_head_of_department3.png">
         </div>
@@ -790,5 +790,6 @@
 </div>
 
 </body>
+<script src="./js/jquery.js"></script>
 <script src="./js/script.js"></script>
 </html>
