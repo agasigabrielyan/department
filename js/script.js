@@ -1,11 +1,13 @@
 let Department = (function() {
 
     const CommonPage = {
-        link: ('.header_main_menu__link')
+        link: ('.header_main_menu__link'),
+        navicon: ('#nav-icon3')
     }
 
     let init = function() {
         $(document).on('click',CommonPage.link, scrollToAnchor);
+        $(document).on('click', CommonPage.navicon, toggleNavIcon);
     }
 
 
@@ -25,6 +27,10 @@ let Department = (function() {
             );
         }, 250);
 
+    }
+
+    function toggleNavIcon() {
+        $(this).toggleClass('open');
     }
 
  
