@@ -15,7 +15,6 @@ let Department = (function() {
         let dataId = this.dataset.id;
         let element = document.getElementById(dataId);
 
-        // получим top и left позиции в браузере текущего загруженного урока
         let top = element.offsetTop;
         let left = element.offsetLeft;
 
