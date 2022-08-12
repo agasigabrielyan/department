@@ -1,7 +1,7 @@
 let Department = (function() {
  
  let init = function() {
-  
+
  }
 
  return {
