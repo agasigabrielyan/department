@@ -857,6 +857,9 @@ body {
     margin-top: 1.56vw;
 }
 
+
+
+/* menu-wrapper */
 .menu-wrapper {
     position: fixed;
     top: -100000px;
@@ -866,6 +869,27 @@ body {
     background-color: rgba(57, 120, 223, 0.95);
     color: #fff;
     z-index: -1;
+}
+
+.menu-wrapper__content {
+    width: 90vw;
+    margin: 150px auto;
+}
+
+.menu-wrapper__search-form input[type='search']{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.menu-wrapper__search-form input[type='search']:hover,
+.menu-wrapper__search-form input[type='search']:active,
+.menu-wrapper__search-form input[type='search']:visited{
+    outline: none;
 }
 
 .menu-wrapper_opened {
