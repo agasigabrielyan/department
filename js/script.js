@@ -5,6 +5,7 @@ let Department = (function() {
         link: ('.header_main_menu__link'),
         navicon: ('#nav-icon3'),
         mainmenu: ('.menu-wrapper'),
+        scrollupwrapper: ('.scroll-up-wrapper'),
 
         /* main page boxes and data */
         digitsActed: false,
@@ -24,7 +25,9 @@ let Department = (function() {
         $(document).on('click',CommonPage.link, scrollToAnchor);
         $(document).on('click', CommonPage.navicon, toggleNavIcon);
         $(document).on('scroll', CommonPage.mainbody, changeDigits);
+        $(document).on('scroll', CommonPage.mainbody, hideShowScrollupWrapper);
         $(document).on('click', CommonPage.contentMenuLeftItem, changeMenuDescription);
+        $(document).on('click', CommonPage.scrollupwrapper, scrollup);
     }
 
     /** begin: methods **/
@@ -63,7 +66,6 @@ let Department = (function() {
             let alreadyScrolled = window.scrollY;
 
             let difference = parseInt(offsetTopPositionOfStatiscs - alreadyScrolled);
-            console.log('Осталось доскроллить ' + (offsetTopPositionOfStatiscs - alreadyScrolled) + 'px');
             if(difference <= 0) {
                 changeDigitValues();
             }
@@ -109,6 +111,21 @@ let Department = (function() {
        $(this).addClass("content_menu_left_item_active");
        let info = $(this).find(".info").html();
        $(".content_menu_right-description").html(info);
+    }
+
+    function scrollup() {
+       window.scrollTo({top: 0, behavior: 'smooth'});
+    }
+
+    function hideShowScrollupWrapper() {
+        let viewportHeight = window.innerHeight;
+        let windowScrollTopPosition = window.scrollTop;
+
+        if(parseInt(windowScrollTopPosition) > parseInt(viewportHeight)) {
+            $(CommonPage.scrollupwrapper).addClass("scroll-up-wrapper_hidden");
+        } else {
+            $(CommonPage.scrollupwrapper).removeClass("scroll-up-wrapper_hidden");
+        }
     }
 
     /** end: methods **/
