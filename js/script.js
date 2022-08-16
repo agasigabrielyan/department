@@ -18,6 +18,9 @@ let Department = (function() {
     }
 
     let init = function() {
+        $(document).ready(function() {
+            changeDigitsOnLoad();
+        });
         $(document).on('click',CommonPage.link, scrollToAnchor);
         $(document).on('click', CommonPage.navicon, toggleNavIcon);
         $(document).on('scroll', CommonPage.mainbody, changeDigits);
