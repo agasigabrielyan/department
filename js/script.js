@@ -1,6 +1,7 @@
 let Department = (function() {
 
     const CommonPage = {
+        body: ("body"),
         link: ('.header_main_menu__link'),
         navicon: ('#nav-icon3'),
         mainmenu: ('.menu-wrapper')
@@ -9,6 +10,7 @@ let Department = (function() {
     let init = function() {
         $(document).on('click',CommonPage.link, scrollToAnchor);
         $(document).on('click', CommonPage.navicon, toggleNavIcon);
+        $(document).on('onscroll', CommonPage.body, changeDigits);
     }
 
     function scrollToAnchor(event) {
@@ -33,7 +35,9 @@ let Department = (function() {
         $(CommonPage.mainmenu).toggleClass("menu-wrapper_opened");
     }
 
- 
+    function changeDigits() {
+        alert('Now we are going to change digits');
+    }
 
 
 
