@@ -5,6 +5,7 @@ let Department = (function() {
         link: ('.header_main_menu__link'),
         navicon: ('#nav-icon3'),
         mainmenu: ('.menu-wrapper'),
+
         /* main page boxes and data */
         digitsActed: false,
         contentMenuLeftItem: ('.content_menu_left_item'),
