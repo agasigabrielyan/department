@@ -1161,19 +1161,28 @@ body {
 
     .content_menu_left_item {
         width: 38vw;
-        min-height: 6.25vw;
+        height: 6.25vw;
         padding-left: 4.17vw;
         display: table-cell;
         vertical-align: middle;
+        cursor: pointer!important;
+        transition: all 750ms;
+        -webkit-transition: all 750ms;
+        -moz-transition: all 750ms;
+    }
+
+    .content_menu_left_item:hover {
+        background-color: #4379B7;
+    }
+
+    .content_menu_left_item .info {
+        position: fixed;
+        top: -1000000%;
+        left: -1000000%;
     }
 
     .content_menu_left_item_active {
-        width: 38vw;
-        height: 6.77vw;
-        padding-left: 4.17vw;
         background-color: #4379B7;
-        display: table-cell;
-        vertical-align: middle;
     }
 
     .content_menu_right {

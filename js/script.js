@@ -7,6 +7,7 @@ let Department = (function() {
         mainmenu: ('.menu-wrapper'),
         /* main page boxes and data */
         digitsActed: false,
+        contentMenuLeftItem: ('.content_menu_left_item'),
         aboutDocuments: ("#about-documents"),
         aboutDepartment: ("#about-department"),
         aboutStatistics: ("#about-statistics"),
@@ -19,14 +20,15 @@ let Department = (function() {
         $(document).on('click',CommonPage.link, scrollToAnchor);
         $(document).on('click', CommonPage.navicon, toggleNavIcon);
         $(document).on('scroll', CommonPage.mainbody, changeDigits);
+        $(document).on('click', CommonPage.contentMenuLeftItem, changeMenuDescription);
     }
-
-
-    /** begin: methods **/
 
     window.onload = function() {
         changeDigits();
     }
+
+
+    /** begin: methods **/
 
     function scrollToAnchor(event) {
         event.preventDefault();
@@ -101,6 +103,14 @@ let Department = (function() {
         var elemBottom = elemTop + $(elem).height();
 
         return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
+
+    function changeMenuDescription() {
+        debugger;
+       $(CommonPage.contentMenuLeftItem).removeClass("content_menu_left_item_active");
+       $(this).addClass("content_menu_left_item_active");
+       let info = $(this).find(".info").html();
+       $(".content_menu_right-description").html(info);
     }
 
     /** end: methods **/
