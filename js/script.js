@@ -1,16 +1,22 @@
 let Department = (function() {
 
     const CommonPage = {
-        body: $("body"),
+        mainbody: $("body"),
         link: ('.header_main_menu__link'),
         navicon: ('#nav-icon3'),
-        mainmenu: ('.menu-wrapper')
+        mainmenu: ('.menu-wrapper'),
+        /* main page boxes */
+        aboutDocuments: ("#about-documents"),
+        aboutDepartment: ("#about-department"),
+        aboutStatistics: ("#about-statistics"),
+        aboutStructure: ("#about-structure"),
+        /* end: main page boxes */
     }
 
     let init = function() {
         $(document).on('click',CommonPage.link, scrollToAnchor);
         $(document).on('click', CommonPage.navicon, toggleNavIcon);
-        $(document).on('scroll', CommonPage.body, changeDigits);
+        $(document).on('scroll', CommonPage.mainbody, changeDigits);
     }
 
     function scrollToAnchor(event) {
@@ -36,7 +42,19 @@ let Department = (function() {
     }
 
     function changeDigits() {
+        let offsetTopPositionOfStatiscs = $(CommonPage.aboutStatistics)[0].offsetTop;
+        let windowScrollTopPosition = window.scrollTop;
+        let alreadyScrolled = window.scrollY;
 
+
+        console.log(offsetTopPositionOfStatiscs);
+        console.log(alreadyScrolled);
+        console.log('-------------------------------')
+        let difference = parseInt(offsetTopPositionOfStatiscs - alreadyScrolled);
+        console.log('Осталось доскроллить ' + (offsetTopPositionOfStatiscs - alreadyScrolled) + 'px');
+        if(difference <= 0) {
+            alert('Салют');
+        }
 
     }
 
