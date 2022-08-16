@@ -24,6 +24,10 @@ let Department = (function() {
 
     /** begin: methods **/
 
+    window.onload = function() {
+        changeDigits();
+    }
+
     function scrollToAnchor(event) {
         event.preventDefault();
         let dataId = this.dataset.id;
