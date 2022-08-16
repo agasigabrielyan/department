@@ -56,6 +56,19 @@ let Department = (function() {
         }
     }
 
+    function changeDigitsOnLoad() {
+            let offsetTopPositionOfStatiscs = $(CommonPage.aboutStatistics)[0].offsetTop;
+            let windowScrollTopPosition = window.scrollTop;
+            let alreadyScrolled = window.scrollY;
+
+            let difference = parseInt(offsetTopPositionOfStatiscs - alreadyScrolled);
+            console.log('Осталось доскроллить ' + (offsetTopPositionOfStatiscs - alreadyScrolled) + 'px');
+            if(difference <= 0) {
+                changeDigitValues();
+            }
+
+    }
+
     function changeDigitValues() {
         let statisticDigits = $(CommonPage.statisticDigit);
 
