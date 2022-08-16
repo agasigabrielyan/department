@@ -62,7 +62,6 @@ let Department = (function() {
 
     function changeDigitsOnLoad() {
             let offsetTopPositionOfStatiscs = $(CommonPage.aboutStatistics)[0].offsetTop;
-            let windowScrollTopPosition = window.scrollTop;
             let alreadyScrolled = window.scrollY;
 
             let difference = parseInt(offsetTopPositionOfStatiscs - alreadyScrolled);
@@ -119,12 +118,12 @@ let Department = (function() {
 
     function hideShowScrollupWrapper() {
         let viewportHeight = window.innerHeight;
-        let windowScrollTopPosition = window.scrollTop;
+        let windowScrollTopPosition = window.scrollY;
 
         if(parseInt(windowScrollTopPosition) > parseInt(viewportHeight)) {
-            $(CommonPage.scrollupwrapper).addClass("scroll-up-wrapper_hidden");
-        } else {
             $(CommonPage.scrollupwrapper).removeClass("scroll-up-wrapper_hidden");
+        } else {
+            $(CommonPage.scrollupwrapper).addClass("scroll-up-wrapper_hidden");
         }
     }
 

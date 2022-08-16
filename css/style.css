@@ -35,6 +35,10 @@ body {
     opacity: 0.75;
 }
 
+.scroll-up-wrapper_hidden {
+    display: none;
+}
+
 
 
 
