@@ -27,11 +27,6 @@ let Department = (function() {
         $(document).on('click', CommonPage.contentMenuLeftItem, changeMenuDescription);
     }
 
-    window.onload = function() {
-        changeDigits();
-    }
-
-
     /** begin: methods **/
 
     function scrollToAnchor(event) {
