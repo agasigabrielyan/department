@@ -58,19 +58,6 @@ let Department = (function() {
         }
     }
 
-    function changeDigitsOnLoad() {
-            let offsetTopPositionOfStatiscs = $(CommonPage.aboutStatistics)[0].offsetTop;
-            let windowScrollTopPosition = window.scrollTop;
-            let alreadyScrolled = window.scrollY;
-
-            let difference = parseInt(offsetTopPositionOfStatiscs - alreadyScrolled);
-            console.log('Осталось доскроллить ' + (offsetTopPositionOfStatiscs - alreadyScrolled) + 'px');
-            if(difference <= 0) {
-                changeDigitValues();
-            }
-
-    }
-
     function changeDigitValues() {
         let statisticDigits = $(CommonPage.statisticDigit);
 
@@ -106,7 +93,6 @@ let Department = (function() {
     }
 
     function changeMenuDescription() {
-        debugger;
        $(CommonPage.contentMenuLeftItem).removeClass("content_menu_left_item_active");
        $(this).addClass("content_menu_left_item_active");
        let info = $(this).find(".info").html();
