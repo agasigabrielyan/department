@@ -4,67 +4,472 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/ibm-plex.css" rel="stylesheet">
-    <title>Документы</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/ibm-plex.css" rel="stylesheet">
+    <link href="css/documents.css" rel="stylesheet">
+    <link href="css/documents_admin.css" rel="stylesheet">
+    <title>Document</title>
 </head>
 
 
 <body>
-<!-- header  -->
-<div class="header_main">
-    <!-- Логотип -->
-    <div class="header_logo">
-        <img src="./img/logo_department651.svg">
-    </div>
-    <!-- Главное меню -->
-    <div class="header_main_menu">
-        <div class="header_main_menu_item">
-            <p>Документы</p>
+    <!-- header  -->
+    <div class="header_main">
+        <!-- Логотип -->
+        <div class="header_logo">
+            <img src="./img/logo_department651.svg">
         </div>
-        <div class="header_main_menu_item">
-            <p>О департаменте</p>
-        </div>
-        <div class="header_main_menu_item">
-            <p>Деятельность</p>
-        </div>
-        <div class="header_main_menu_item">
-            <p>Структура</p>
-        </div>
-        <!-- Меню-иконки -->
-        <div class="header_main_menu_icons">
-            <div class="header_exit">
-                <img src="./img/header_exit_icon.svg">
+        <!-- Главное меню -->
+        <div class="header_main_menu">
+            <div class="header_main_menu_item">
+                <p>Документы</p>
             </div>
-            <div class="header_hamburger_menu">
-                <img src="./img/header_hamburger menu.svg">
+            <div class="header_main_menu_item">
+                <p>О департаменте</p>
+            </div>
+            <div class="header_main_menu_item">
+                <p>Деятельность</p>
+            </div>
+            <div class="header_main_menu_item">
+                <p>Структура</p>
+            </div>
+            <!-- Меню-иконки -->
+            <div class="header_main_menu_icons">
+                <div class="header_exit">
+                    <img src="./img/header_exit_icon.svg">
+                </div>
+                <div class="header_hamburger_menu">
+                    <img src="./img/header_hamburger menu.svg">
+                </div>
             </div>
         </div>
+
     </div>
-
-</div>
-
-Документы тут
-
-<!-- footer -->
-<div class="footer">
-    <div class="footer_menu">
+    <!-- Контент страницы -->
+    <div class="content">
+        <!-- Название -->
+        <div class="documents_label">
+            <h1 class="documents_label_text">Документы</h1>
+        </div>
+        <!-- Форма поиска -->
+        <form action="" class="documents_search">
+            <input type="text" class="documents_search_input">
+            <input type="button" value="Искать" class="documents_search_button">
+        </form>
         <div class="clear"></div>
-        <div class="footer_menu_item">
-            <p><span class="decoration_text_underline">Корпоративный портал</span></p>
+        <!-- Левое меню -->
+        <div class="documents_menu">
+            <div class="documents_menu_item">
+                <p>Департамент 651</p>
+            </div>
+            <div class="clear"></div>
+            <div class="documents_menu_item_active">
+                <p>Интеграция ИУС</p>
+            </div>
+            <div class="clear"></div>
+            <div class="documents_menu_item">
+                <p>Импортозамещение в ИТ</p>
+            </div>
+            <div class="clear"></div>
+            <div class="documents_menu_item">
+                <p>Стратегия цифровой трансформации</p>
+            </div>
+            <div class="clear"></div>
+            <div class="documents_menu_item">
+                <p>Централизованное управление НСИ</p>
+            </div>
         </div>
-        <div class="footer_menu_item">
-            <p><span class="decoration_text_underline">Интранет-портал</span></p>
+
+        <!-- Список документов -->
+        <div class="documents_list">
+            <!-- Админка добавить документ -->
+            <form class="documents_admin_uploadDocument_form">
+                <input type="button" class="documents_admin_uploadDocument_button" value="Загрузить документ">
+                <div class="documents_admin_uploadDocument_dragndrop">
+                    <p>
+                        или перетащите файл
+                    </p>
+                </div>
+            </form>
+            <form class="documents_admin_uploadDocument_form2">
+                <div class="documents_admin_uploadDocument_form2_buttons">
+                    <input type="button" class="documents_admin_uploadDocument_form2_delete" value="Удалить">
+                    <input type="button" class="documents_admin_uploadDocument_form2_publish" value="Опубликовать">
+                </div>
+                <input type="text" class="documents_admin_uploadDocument_form2_name" placeholder="Название">
+                <div class="documents_admin_uploadDocument_form2_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+
+                <div class="documents_admin_uploadDocument_form2_info">
+                    <input type="" class="documents_admin_uploadDocument_form2_listInputStyle"
+                        placeholder="Выберите категорию">
+                    <div class="documents_admin_uploadDocument_form2_department">
+                        <p>&nbsp|&nbsp</p>
+                    </div>
+                    <div class="documents_admin_uploadDocument_form2_date">
+                        <p style="display: inline-block">07.06.2022</p>
+                    </div>
+                    <a class="documents_admin_uploadDocument_form2_date_calenderIcon"></a>                
+                </div>
+
+                <div class="documents_admin_uploadDocument_form2_datelist">
+                    <div class="documents_admin_uploadDocument_form2_datelist_item">
+                        <p>Нет категории</p>
+                    </div>
+                    <div class="documents_admin_uploadDocument_form2_datelist_item">
+                        <p>Управление межсистемной интеграции</p>
+                    </div>
+                    <div class="documents_admin_uploadDocument_form2_datelist_item">
+                        <p>Интеграция ИУС</p>
+                    </div>
+                    <div class="documents_admin_uploadDocument_form2_datelist_item">
+                        <p>Управление СТИ и ИТ</p>
+                    </div>
+                    <div class="documents_admin_uploadDocument_form2_datelist_item">
+                        <p>Стратегия цифровой трансформации</p>
+                    </div>
+                    <div class="documents_admin_uploadDocument_form2_datelist_item">
+                        <p>Централизованное управление НСИ</p>
+                    </div>
+                </div>
+                <div class="documents_admin_uploadDocument_form2_calender">
+                    <div class="documents_admin_uploadDocument_form2_calender_monthSwitcher">
+                        <img src="img/documents/documents_chevron_left.svg" alt=""
+                            class="documents_admin_uploadDocument_form2_calender_monthSwitcher_prev">
+                        <div class="documents_admin_uploadDocument_form2_calender_monthSwitcher_month">
+                            <p>Июль</p>
+                        </div>
+                        <img src="img/documents/documents_chevron_right.svg"
+                            class="documents_admin_uploadDocument_form2_calender_monthSwitcher_next" alt="">
+                    </div>
+                    <div class="documents_admin_uploadDocument_form2_calender_main">
+                        <div class="documents_admin_uploadDocument_form2_calender_main_weekname">
+                            <div class="documents_admin_uploadDocument_form2_calender_main_nday">
+                                <p>П</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_nday">
+                                <p>В</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_nday">
+                                <p>С</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_nday">
+                                <p>Ч</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_nday">
+                                <p>П</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_nday_weekend">
+                                <p>С</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_nday_weekend">
+                                <p>В</p>
+                            </div>
+                        </div>
+                        <!-- week 1 -->
+                        <div class="documents_admin_uploadDocument_form2_calender_main_week">
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_none">
+                                <p></p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_none">
+                                <p></p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_none">
+                                <p></p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>1</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>2</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>3</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>4</p>
+                            </div>
+                        </div>
+                        <!-- week 2 -->
+                        <div class="documents_admin_uploadDocument_form2_calender_main_week">
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>5</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>6</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>7</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>8</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>9</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>10</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>11</p>
+                            </div>
+                        </div>
+                        <!-- week 3 -->
+                        <div class="documents_admin_uploadDocument_form2_calender_main_week">
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>12</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>13</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>14</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>15</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>16</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>17</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>18</p>
+                            </div>
+                        </div>
+                        <!-- week 4 -->
+                        <div class="documents_admin_uploadDocument_form2_calender_main_week">
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>19</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>20</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>21</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>22</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>23</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>24</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>25</p>
+                            </div>
+                        </div>
+                        <!-- week 5 -->
+                        <div class="documents_admin_uploadDocument_form2_calender_main_week">
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>26</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>27</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>28</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>29</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day">
+                                <p>30</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day_weekend">
+                                <p>31</p>
+                            </div>
+                            <div class="documents_admin_uploadDocument_form2_calender_main_day__none">
+                                <p></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </form>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <!-- Админка редактировать/удалить документ -->
+                <form action="" class="documents_admin_editDelete_form">
+                    <input type="button" class="documents_admin_editDelete_button_edit" value="Редактировать">
+                    <input type="button" class="documents_admin_editDelete_button_delete" value="Удалить">
+                </form>
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <!-- Админка редактировать/удалить документ -->
+                <form action="" class="documents_admin_editDelete_form">
+                    <div class="documents_admin_editDelete_form">
+                        <input type="button" class="documents_admin_editDelete_button_edit" value="Редактировать">
+                        <input type="button" class="documents_admin_editDelete_button_delete" value="Удалить">
+                    </div>
+                </form>
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Документ -->
+            <div class="documents_list_item">
+                <div class="documents_list_item_label">
+                    <p>Новое положение об обработке персональных данных</p>
+                </div>
+                <div class="documents_list_item_typeSize">
+                    <p>pdf 839 кб</p>
+                </div>
+                <div class="documents_list_item_info">
+                    <div class="documents_list_item_department">
+                        <p>Управление СТИ и ИТ |&nbsp</p>
+                    </div>
+                    <div class="documents_list_item_date">
+                        <p>07.06.2022</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+            <div class="documents_button">
+                <input class="documents_button_more" type="button" value="Показать еще">
+            </div>
         </div>
-        <div class="footer_menu_item">
-            <p><span class="decoration_text_underline">gazprom.ru</span></p>
-        </div>
-        <div class="footer_menu_item_order">
-            <p>Заказать разработку внутреннего сайта → </p>
+
+
+
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        <div class="footer_menu">
+            <div class="clear"></div>
+            <div class="footer_menu_item">
+                <p><span class="decoration_text_underline">Корпоративный портал</span></p>
+            </div>
+            <div class="footer_menu_item">
+                <p><span class="decoration_text_underline">Интранет-портал</span></p>
+            </div>
+            <div class="footer_menu_item">
+                <p><span class="decoration_text_underline">gazprom.ru</span></p>
+            </div>
+            <div class="footer_menu_item_order">
+                <p>Заказать разработку внутреннего сайта → </p>
+            </div>
         </div>
     </div>
-</div>
 
 </body>
 
