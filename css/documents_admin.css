@@ -1,0 +1,1670 @@
+ /* Documents Admin Panel */
+
+
+ /* MORE THAN 1920 */
+
+ .documents_admin_addDocument {
+     width: 58.59vw;
+     min-height: 21.88vw;
+     margin-top: 2.34vw;
+     display: inline;
+     float: left;
+ }
+
+
+ /* Documents Admin Upload Form */
+
+ .documents_admin_uploadDocument_form {
+     min-height: 13.54vw;
+     width: 58.59vw;
+     margin-top: 2.34vw;
+     display: inline-block;
+     border: 1px solid #9A9A9A;
+
+     background-color: #FFFFFF;
+ }
+
+ .documents_admin_uploadDocument_button {
+     width: 20.83vw;
+     height: 4.17vw;
+     margin: 4.69vw 0 0 6.25vw;
+
+     border: none;
+     background: #86B2E3 url('../img/documents/documents_icon_uploud.svg') 1.56vw center no-repeat;
+     padding-left: 2.86vw;
+     background-size: 2.6vw 3.13vw;
+     color: #fff;
+     font-size: 1.25vw;
+     font-weight: bold;
+     display: inline;
+     float: left;
+ }
+
+ .documents_admin_uploadDocument_button:hover {
+     background-color: #3978DF;
+ }
+
+ .documents_admin_uploadDocument_dragndrop {
+     width: 10.42vw;
+     height: 5.73vw;
+     margin: 3.91vw 0 0 10.42vw;
+     display: inline;
+     float: left;
+     text-align: center;
+     background: url('../img/documents/documents_upload_dragndrop.svg') center center no-repeat;
+     background-size: 6.15vw 5.5vw;
+ }
+
+ .documents_admin_uploadDocument_dragndrop p {
+     font-size: 0.94vw;
+     color: #314359;
+     margin-top: 4.17vw;
+ }
+
+
+ /* Documents Admin Edit&Delete Form */
+
+ .documents_admin_editDelete_form {
+     margin-top: 2.34vw;
+     width: 58.59vw;
+     height: 2.6vw;
+     text-align: right;
+ }
+
+ .documents_admin_editDelete_button_edit {
+     height: 2.6vw;
+     width: 12.5vw;
+     padding-left: 2.34vw;
+     border: none;
+     background: #FFF url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+     background-size: 1.41vw 1.46vw;
+     font-size: 1.25vw;
+     color: #314359;
+ }
+
+ .documents_admin_editDelete_button_edit:hover {
+     background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+     background-size: 1.41vw 1.46vw;
+ }
+
+ .documents_admin_editDelete_button_delete {
+     height: 2.6vw;
+     width: 8.59vw;
+     padding-left: 1.82vw;
+     border: none;
+     background: #FFF url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+     background-size: 1.25vw 1.2vw;
+     font-size: 1.25vw;
+     color: #314359;
+ }
+
+ .documents_admin_editDelete_button_delete:hover {
+     background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+     background-size: 1.25vw 1.2vw;
+ }
+
+
+ /* Documents Admin Upload Form 2 */
+
+
+
+ .documents_admin_uploadDocument_form2 {
+     padding: 2.34vw;
+     box-sizing: border-box;
+     min-height: 14.06vw;
+     width: 58.59vw;
+     margin-top: 2.34vw;
+     display: inline-block;
+     border: 1px solid #9A9A9A;
+
+     background-color: #FFF;
+
+ }
+
+ .documents_admin_uploadDocument_form2_buttons {
+     display: block;
+     text-align: right;
+ }
+
+ .documents_admin_uploadDocument_form2_delete {
+     height: 2.6vw;
+     width: 8.59vw;
+     padding-left: 1.82vw;
+     margin: 0 0.78vw 0;
+     border: none;
+     background: #FFF url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+     background-size: 1.25vw 1.25vw;
+     font-size: 1.25vw;
+     color: #314359;
+ }
+
+ .documents_admin_uploadDocument_form2_delete:hover {
+     background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+     background-size: 1.25vw 1.25vw;
+ }
+
+ .documents_admin_uploadDocument_form2_publish {
+     height: 2.6vw;
+     width: 13.65vw;
+     padding-left: 1.82vw;
+     margin: 0;
+     border: none;
+     background: #4379B7 url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+     background-size: 1.25vw 1.2vw;
+     font-size: 1.25vw;
+     color: #FFF;
+ }
+
+ .documents_admin_uploadDocument_form2_publish:hover {
+     background: #3978DF url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+     background-size: 1.25vw 1.2vw;
+ }
+
+ .documents_admin_uploadDocument_form2_name {
+     width: 52.34vw;
+     height: 5.21vw;
+     padding-left: 1.3vw;
+     border: 1px solid #EBEBEB;
+     font-size: 1.25vw;
+     color: #314359;
+     margin: 1.04vw 0;
+     display: inline;
+     float: right;
+ }
+
+ .documents_admin_uploadDocument_form2_name:hover {
+     outline: 1px solid #9A9A9A;
+ }
+
+ .documents_admin_uploadDocument_form2_name:focus {
+     outline: 1px solid #9A9A9A;
+ }
+
+ .documents_admin_uploadDocument_form2_name::placeholder {
+     color: #9A9A9A;
+ }
+
+ .documents_admin_uploadDocument_form2_typeSize {
+     display: inline;
+     float: left;
+     font-size: 0.94vw;
+     font-weight: bold;
+     color: #314359;
+     /* margin-top: 0.5vw; */
+     margin-top: 8vw;
+     position: absolute;
+ }
+
+
+ .documents_admin_uploadDocument_form2_date_calenderIcon {
+     display: inline-block;
+     width: 1.88vw;
+     height: 1.61vw;
+     margin: 1vw 0 0 0.73vw;
+     background: url('../img/documents/documents_icon_calender.svg');
+     background-size: 1.88vw 1.61vw;
+ }
+
+ .documents_admin_uploadDocument_form2_date_calenderIcon:hover {
+     background: url('../img/documents/documents_icon_calender_active.svg');
+     background-size: 1.88vw 1.61vw;
+ }
+
+ .documents_admin_uploadDocument_form2_typeSize p {
+     margin-top: 0.7vw;
+     ;
+ }
+
+
+ .documents_admin_uploadDocument_form2_info {
+     display: inline;
+     float: right;
+ }
+
+ .documents_admin_uploadDocument_form2_department {
+     display: inline;
+     float: left;
+     font-size: 0.94vw;
+     color: #9A9A9A;
+     margin-top: 0.4vw;
+ }
+
+ .documents_admin_uploadDocument_form2_date {
+     display: inline;
+     float: left;
+     font-size: 0.94vw;
+     color: #9A9A9A;
+     margin-top: 0.4vw;
+ }
+
+ /* Documents Admin Upload Form 2  -  Category List */
+
+
+ .documents_admin_uploadDocument_form2_listInputStyle {
+     display: inline;
+     float: left;
+     margin: 0.83vw 0;
+     padding: 0 0.78vw;
+     width: 28.13vw;
+     height: 2.14vw;
+     font-size: 0.94vw;
+     color: #9A9A9A;
+     text-align: right;
+     border: 1px solid #EBEBEB;
+ }
+
+ .documents_admin_uploadDocument_form2_listInputStyle:hover {
+     outline: 1px solid #9A9A9A;
+ }
+
+ .documents_admin_uploadDocument_form2_listInputStyle:focus {
+     outline: 1px solid #9A9A9A;
+ }
+
+ .documents_admin_uploadDocument_form2_listStyle {
+     width: 28.13vw;
+     height: 1.56vw;
+     border: 1px solid #EBEBEB;
+ }
+
+ .documents_admin_uploadDocument_form2_datelist {
+     display: inline-block;
+     min-height: 1.56vw;
+     width: 24.74vw;
+     padding: 1.04vw 0;
+     background-color: #fff;
+     box-shadow: 0 0.52vw 2.08vw rgba(0, 0, 0, 0.15);
+ }
+
+ .documents_admin_uploadDocument_form2_datelist_item {
+     width: 21.51vw;
+     height: 1.56vw;
+     margin: 1.3vw auto;
+     display: block;
+ }
+
+ .documents_admin_uploadDocument_form2_datelist_item p {
+     font-size: 1.04vw;
+     color: #314359;
+     margin: 0
+ }
+
+ .documents_admin_uploadDocument_form2_datelist_item p:hover {
+     color: #EE7049;
+ }
+
+ .documents_admin_uploadDocument_form2_datelist_item p:active {
+     color: #EE7049;
+ }
+
+ /* Documents Admin Upload Form 2  -  Calender */
+
+ .documents_admin_uploadDocument_form2_calender {
+     display: inline-block;
+     width: 25vw;
+     height: 31.25vw;
+     padding: 2.08vw 1.56vw;
+     display: inline-block;
+     box-sizing: border-box;
+     background-color: #FFF;
+     box-shadow: 0 0.52vw 2.08vw rgba(0, 0, 0, 0.15);
+ }
+
+ .documents_admin_uploadDocument_form2_calender_monthSwitcher {
+     width: 100%;
+     height: 2.6vw;
+     display: block;
+     overflow: hidden;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_monthSwitcher_prev {
+     margin-top: 0.26vw;
+     display: inline;
+     float: left;
+     width: 2.08vw;
+     height: 2.19vw;
+ }
+
+
+ .documents_admin_uploadDocument_form2_calender_monthSwitcher_month {
+     width: 17.71vw;
+     display: inline;
+     float: left;
+     text-align: center;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_monthSwitcher_month p {
+     font-size: 1.25vw;
+     font-weight: bold;
+     color: #314359;
+     margin: 0.52vw 0;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_monthSwitcher_next {
+     margin-top: 0.26vw;
+     display: inline;
+     float: right;
+     width: 2.08vw;
+     height: 2.19vw;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main {
+     width: 21.88vw;
+     font-size: 1.25vw;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main p {
+     margin: 0;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main_weekname {
+     font-weight: bold;
+     margin-top: 0.78vw;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main_week {
+     margin-top: 0.52vw;
+ }
+
+
+ .documents_admin_uploadDocument_form2_calender_main_day,
+ .documents_admin_uploadDocument_form2_calender_main_nday {
+     height: 3.13vw;
+     width: 3.13vw;
+     display: table-cell;
+     text-align: center;
+     vertical-align: middle;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main_day_weekend,
+ .documents_admin_uploadDocument_form2_calender_main_nday_weekend {
+     height: 3.13vw;
+     width: 3.13vw;
+     display: table-cell;
+     text-align: center;
+     vertical-align: middle;
+     color: #9A9A9A;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main_day:hover {
+     background: url(../img/documents/documents_icon_calender_dayhover.svg);
+     background-size: 3.13vw 3.13vw;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main_day:active {
+     background: url(../img/documents/documents_icon_calender_dayactive.svg);
+     background-size: 3.13vw 3.13vw;
+     color: #fff;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main_day_weekend:hover {
+     background: url(../img/documents/documents_icon_calender_dayhover.svg);
+     background-size: 3.13vw 3.13vw;
+ }
+
+
+ .documents_admin_uploadDocument_form2_calender_main_day_weekend:active {
+     background: url(../img/documents/documents_icon_calender_dayactive.svg);
+     background-size: 3.13vw 3.13vw;
+     color: #fff;
+ }
+
+ .documents_admin_uploadDocument_form2_calender_main_day_none{
+    height: 3.13vw;
+    width: 3.13vw;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+ }
+
+ /* 1920 */
+
+ @media screen and (max-width: 1920px) {
+     .documents_admin_addDocument {
+         width: 58.59vw;
+         min-height: 21.88vw;
+         margin-top: 2.34vw;
+         display: inline;
+         float: left;
+     }
+
+
+     /* Documents Admin Upload Form */
+
+     .documents_admin_uploadDocument_form {
+         min-height: 13.54vw;
+         width: 58.59vw;
+         margin-top: 2.34vw;
+         display: inline-block;
+         border: 1px solid #9A9A9A;
+
+         background-color: #FFFFFF;
+     }
+
+     .documents_admin_uploadDocument_button {
+         width: 20.83vw;
+         height: 4.17vw;
+         margin: 4.69vw 0 0 6.25vw;
+
+         border: none;
+         background: #86B2E3 url('../img/documents/documents_icon_uploud.svg') 1.56vw center no-repeat;
+         padding-left: 2.86vw;
+         background-size: 2.6vw 3.13vw;
+         color: #fff;
+         font-size: 1.25vw;
+         font-weight: bold;
+         display: inline;
+         float: left;
+     }
+
+     .documents_admin_uploadDocument_button:hover {
+         background-color: #3978DF;
+     }
+
+     .documents_admin_uploadDocument_dragndrop {
+         width: 10.42vw;
+         height: 5.73vw;
+         margin: 3.91vw 0 0 10.42vw;
+         display: inline;
+         float: left;
+         text-align: center;
+         background: url('../img/documents/documents_upload_dragndrop.svg') center center no-repeat;
+         background-size: 6.15vw 5.5vw;
+     }
+
+     .documents_admin_uploadDocument_dragndrop p {
+         font-size: 0.94vw;
+         color: #314359;
+         margin-top: 4.17vw;
+     }
+
+
+     /* Documents Admin Edit&Delete Form */
+
+     .documents_admin_editDelete_form {
+         margin-top: 2.34vw;
+         width: 58.59vw;
+         height: 2.6vw;
+         text-align: right;
+     }
+
+     .documents_admin_editDelete_button_edit {
+         height: 2.6vw;
+         width: 12.5vw;
+         padding-left: 2.34vw;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+         background-size: 1.41vw 1.46vw;
+         font-size: 1.25vw;
+         color: #314359;
+     }
+
+     .documents_admin_editDelete_button_edit:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+         background-size: 1.41vw 1.46vw;
+     }
+
+     .documents_admin_editDelete_button_delete {
+         height: 2.6vw;
+         width: 8.59vw;
+         padding-left: 1.82vw;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+         background-size: 1.25vw 1.2vw;
+         font-size: 1.25vw;
+         color: #314359;
+     }
+
+     .documents_admin_editDelete_button_delete:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+         background-size: 1.25vw 1.2vw;
+     }
+
+     /* Documents Admin Upload Form 2 */
+
+
+     .documents_admin_uploadDocument_form2_info {
+         display: inline;
+         float: right;
+     }
+
+     .documents_admin_uploadDocument_form2_department {
+         display: inline;
+         float: left;
+         font-size: 0.94vw;
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_date {
+         display: inline;
+         float: left;
+         font-size: 0.94vw;
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2 {
+         padding: 2.34vw;
+         box-sizing: border-box;
+         min-height: 14.06vw;
+         width: 58.59vw;
+         margin-top: 2.34vw;
+         display: inline-block;
+         border: 1px solid #9A9A9A;
+
+         background-color: #FFF;
+
+     }
+
+     .documents_admin_uploadDocument_form2_buttons {
+         display: block;
+         text-align: right;
+     }
+
+     .documents_admin_uploadDocument_form2_delete {
+         height: 2.6vw;
+         width: 8.59vw;
+         padding-left: 1.82vw;
+         margin: 0 0.78vw 0;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+         background-size: 1.25vw 1.25vw;
+         font-size: 1.25vw;
+         color: #314359;
+     }
+
+     .documents_admin_uploadDocument_form2_delete:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+         background-size: 1.25vw 1.25vw;
+     }
+
+     .documents_admin_uploadDocument_form2_publish {
+         height: 2.6vw;
+         width: 13.65vw;
+         padding-left: 1.82vw;
+         margin: 0;
+         border: none;
+         background: #4379B7 url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+         background-size: 1.25vw 1.2vw;
+         font-size: 1.25vw;
+         color: #FFF;
+     }
+
+     .documents_admin_uploadDocument_form2_publish:hover {
+         background: #3978DF url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+         background-size: 1.25vw 1.2vw;
+     }
+
+     .documents_admin_uploadDocument_form2_name {
+         width: 52.34vw;
+         height: 5.21vw;
+         padding-left: 1.3vw;
+         border: 1px solid #EBEBEB;
+         font-size: 1.25vw;
+         color: #314359;
+         margin: 1.04vw 0;
+         display: inline;
+         float: right;
+     }
+
+     .documents_admin_uploadDocument_form2_name:hover {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_name:focus {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_name::placeholder {
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_typeSize {
+         display: inline;
+         float: left;
+         font-size: 0.94vw;
+         font-weight: bold;
+         color: #314359;
+         /* margin: 1.04vw 0; */
+         margin-top: 9vw;
+         position: absolute;
+     }
+
+     .documents_admin_uploadDocument_form2_typeSize p {
+         margin: 0;
+     }
+
+     .documents_admin_uploadDocument_form2_date_calenderIcon {
+         display: inline-block;
+         width: 1.88vw;
+         height: 1.61vw;
+         margin: 1vw 0 0 0.73vw;
+         background: url('../img/documents/documents_icon_calender.svg');
+         background-size: 1.88vw 1.61vw;
+     }
+
+     .documents_admin_uploadDocument_form2_date_calenderIcon:hover {
+         background: url('../img/documents/documents_icon_calender_active.svg');
+         background-size: 1.88vw 1.61vw;
+     }
+
+
+
+
+     /* Documents Admin Upload Form 2  -  Category List */
+
+     .documents_admin_uploadDocument_form2_listInputStyle {
+         display: inline;
+         float: left;
+         margin: 0.83vw 0;
+         padding: 0 0.78vw;
+         width: 28.13vw;
+         height: 2.14vw;
+         font-size: 0.94vw;
+         color: #9A9A9A;
+         text-align: right;
+         border: 1px solid #EBEBEB;
+     }
+
+     .documents_admin_uploadDocument_form2_listInputStyle:hover {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_listInputStyle:focus {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_listStyle {
+         width: 28.13vw;
+         height: 1.56vw;
+         border: 1px solid #EBEBEB;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist {
+         display: inline-block;
+         min-height: 1.56vw;
+         width: 24.74vw;
+         padding: 1.04vw 0;
+         background-color: #fff;
+         box-shadow: 0 0.52vw 2.08vw rgba(0, 0, 0, 0.15);
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item {
+         width: 21.51vw;
+         height: 1.56vw;
+         margin: 1.3vw auto;
+         display: block;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p {
+         font-size: 1.04vw;
+         color: #314359;
+         margin: 0
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p:hover {
+         color: #EE7049;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p:active {
+         color: #EE7049;
+     }
+
+     /* Documents Admin Upload Form 2  -  Calender */
+
+     .documents_admin_uploadDocument_form2_calender {
+         display: inline-block;
+         width: 25vw;
+         height: 31.25vw;
+         padding: 2.08vw 1.56vw;
+         display: inline-block;
+         box-sizing: border-box;
+         background-color: #FFF;
+         box-shadow: 0 0.52vw 2.08vw rgba(0, 0, 0, 0.15);
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher {
+         width: 100%;
+         height: 2.6vw;
+         display: block;
+         overflow: hidden;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_prev {
+         margin-top: 0.26vw;
+         display: inline;
+         float: left;
+         width: 2.08vw;
+         height: 2.19vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_month {
+         width: 17.71vw;
+         display: inline;
+         float: left;
+         text-align: center;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_month p {
+         font-size: 1.25vw;
+         font-weight: bold;
+         color: #314359;
+         margin: 0.52vw 0;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_next {
+         margin-top: 0.26vw;
+         display: inline;
+         float: right;
+         width: 2.08vw;
+         height: 2.19vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main {
+         width: 21.88vw;
+         font-size: 1.25vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main p {
+         margin: 0;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_weekname {
+         font-weight: bold;
+         margin-top: 0.78vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_week {
+         margin-top: 0.52vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_main_day,
+     .documents_admin_uploadDocument_form2_calender_main_nday {
+         height: 3.13vw;
+         width: 3.13vw;
+         display: table-cell;
+         text-align: center;
+         vertical-align: middle;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend,
+     .documents_admin_uploadDocument_form2_calender_main_nday_weekend {
+         height: 3.13vw;
+         width: 3.13vw;
+         display: table-cell;
+         text-align: center;
+         vertical-align: middle;
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day:hover {
+         background: url(../img/documents/documents_icon_calender_dayhover.svg);
+         background-size: 3.13vw 3.13vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day:active {
+         background: url(../img/documents/documents_icon_calender_dayactive.svg);
+         background-size: 3.13vw 3.13vw;
+         color: #fff;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend:hover {
+         background: url(../img/documents/documents_icon_calender_dayhover.svg);
+         background-size: 3.13vw 3.13vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend:active {
+         background: url(../img/documents/documents_icon_calender_dayactive.svg);
+         background-size: 3.13vw 3.13vw;
+         color: #fff;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_none{
+        height: 3.13vw;
+        width: 3.13vw;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+     }
+ }
+
+ /* 1280 */
+
+ @media screen and (max-width: 1280px) {
+     /* Documents Admin Panel */
+
+
+     .documents_admin_addDocument {
+         width: 56vw;
+         min-height: 32.81vw;
+         margin-top: 3.52vw;
+         display: inline;
+         float: left;
+     }
+
+
+     /* Documents Admin Upload Form */
+
+     .documents_admin_uploadDocument_form {
+         min-height: 20.31vw;
+         width: 56vw;
+         margin-top: 3.52vw;
+         display: inline-block;
+         border: 1px solid #9A9A9A;
+
+         background-color: #FFFFFF;
+     }
+
+     .documents_admin_uploadDocument_button {
+         width: 31.25vw;
+         height: 6.25vw;
+         margin: 5.03vw 0 0 11.38vw;
+
+         border: none;
+         background: #86B2E3 url('../img/documents/documents_icon_uploud.svg') 2.34vw center no-repeat;
+         padding-left: 4.3vw;
+         background-size: 3.91vw 4.69vw;
+         color: #fff;
+         font-size: 1.88vw;
+         font-weight: bold;
+         display: inline;
+         float: left;
+     }
+
+     .documents_admin_uploadDocument_button:hover {
+         background-color: #3978DF;
+     }
+
+     .documents_admin_uploadDocument_dragndrop {
+         width: 15.63vw;
+         height: 8.59vw;
+         margin: 1.86vw 0 5.03vw 19.63vw;
+         display: inline;
+         float: left;
+         text-align: center;
+         background: url('../img/documents/documents_upload_dragndrop.svg') center center no-repeat;
+         background-size: 9.22vw 7.58vw;
+     }
+
+     .documents_admin_uploadDocument_dragndrop p {
+         font-size: 1.41vw;
+         color: #314359;
+         margin-top: 6.25vw;
+     }
+
+
+     /* Documents Admin Edit&Delete Form */
+
+     .documents_admin_editDelete_form {
+         margin-top: 3.52vw;
+         width: 56vw;
+         height: 3.91vw;
+         text-align: right;
+     }
+
+     .documents_admin_editDelete_button_edit {
+         height: 3.91vw;
+         width: 18.75vw;
+         padding-left: 3.52vw;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_edit.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+         font-size: 1.88vw;
+         color: #314359;
+     }
+
+     .documents_admin_editDelete_button_edit:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+     }
+
+     .documents_admin_editDelete_button_delete {
+         height: 3.91vw;
+         width: 12.89vw;
+         padding-left: 2.73vw;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_delete.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+         font-size: 1.88vw;
+         color: #314359;
+     }
+
+     .documents_admin_editDelete_button_delete:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+     }
+
+     /* Documents Admin Upload Form 2 */
+
+     .documents_admin_uploadDocument_form2_info {
+         display: inline;
+         float: right;
+     }
+
+     .documents_admin_uploadDocument_form2_department {
+         display: inline;
+         float: left;
+         font-size: 1.41vw;
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_date {
+         display: inline;
+         float: left;
+         font-size: 1.41vw;
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2 {
+         padding: 3.52vw;
+         box-sizing: border-box;
+         min-height: 21.09vw;
+         width: 56vw;
+         margin-top: 3.52vw;
+         display: inline-block;
+         border: 1px solid #9A9A9A;
+
+         background-color: #FFF;
+
+     }
+
+     .documents_admin_uploadDocument_form2_buttons {
+         display: block;
+         text-align: right;
+     }
+
+
+     .documents_admin_uploadDocument_form2_delete {
+         height: 3.91vw;
+         width: 12.89vw;
+         padding-left: 2.73vw;
+         margin: 0 1.17vw 0;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_delete.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+         font-size: 1.88vw;
+         color: #314359;
+     }
+
+     .documents_admin_uploadDocument_form2_delete:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+     }
+
+     .documents_admin_uploadDocument_form2_publish {
+         height: 3.91vw;
+         width: 20.47vw;
+         padding-left: 2.73vw;
+         margin: 0;
+         border: none;
+         background: #4379B7 url('../img/documents/documents_icon_publish.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+         font-size: 1.88vw;
+         color: #FFF;
+     }
+
+     .documents_admin_uploadDocument_form2_publish:hover {
+         background: #3978DF url('../img/documents/documents_icon_publish.svg') 1.17vw center no-repeat;
+         background-size: 1.88vw 1.8vw;
+     }
+
+     .documents_admin_uploadDocument_form2_name {
+         width: 46.5vw;
+         height: 7.81vw;
+         padding-left: 1.95vw;
+         border: 1px solid #EBEBEB;
+         font-size: 1.88vw;
+         color: #314359;
+         margin: 1.56vw 0;
+         display: inline;
+         float: right;
+     }
+
+     .documents_admin_uploadDocument_form2_name:hover {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_name:focus {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_name::placeholder {
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_typeSize {
+         display: inline;
+         float: left;
+         font-size: 1.41vw;
+         font-weight: bold;
+         color: #314359;
+         /* margin: 1.56vw 0; */
+         margin-top: 17.2vw;
+         position: absolute;
+     }
+
+     .documents_admin_uploadDocument_form2_typeSize p {
+         margin: 0;
+     }
+
+
+     .documents_admin_uploadDocument_form2_date_calenderIcon {
+         display: inline-block;
+         width: 2.81vw;
+         height: 2.42vw;
+         margin: 1.35vw 0 0 0.9vw;
+         background: url('../img/documents/documents_icon_calender.svg');
+         background-size: 2.81vw 2.42vw;
+     }
+
+     .documents_admin_uploadDocument_form2_date_calenderIcon:hover {
+         background: url('../img/documents/documents_icon_calender_active.svg');
+         background-size: 2.81vw 2.42vw;
+     }
+
+     /* Documents Admin Upload Form 2  -  Category List */
+
+     .documents_admin_uploadDocument_form2_listInputStyle {
+         display: inline;
+         float: left;
+         margin: 1.25vw 0;
+         padding: 0 1.17vw;
+         width: 33.75vw;
+         height: 3.2vw;
+         font-size: 1.41vw;
+         color: #9A9A9A;
+         text-align: right;
+         border: 1px solid #EBEBEB;
+     }
+
+     .documents_admin_uploadDocument_form2_listInputStyle:hover {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_listInputStyle:focus {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_listStyle {
+         width: 42.19vw;
+         height: 2.34vw;
+         border: 1px solid #EBEBEB;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist {
+         display: inline-block;
+         min-height: 2.34vw;
+         width: 37.5vw;
+         padding: 1.56vw 0;
+         background-color: #fff;
+         box-shadow: 0 0.78vw 3.13vw rgba(0, 0, 0, 0.15);
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item {
+         width: 32.27vw;
+         height: 2.34vw;
+         margin: 1.95vw auto;
+         display: block;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p {
+         font-size: 1.56vw;
+         color: #314359;
+         margin: 0
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p:hover {
+         color: #EE7049;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p:active {
+         color: #EE7049;
+     }
+
+     /* Documents Admin Upload Form 2  -  Calender */
+
+     .documents_admin_uploadDocument_form2_calender {
+         display: inline-block;
+         width: 37.5vw;
+         height: 46.88vw;
+         padding: 3.13vw 2.34vw;
+         display: inline-block;
+         box-sizing: border-box;
+         background-color: #FFF;
+         box-shadow: 0 0.78vw 3.13vw rgba(0, 0, 0, 0.15);
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher {
+         width: 100%;
+         height: 3.91vw;
+         display: block;
+         overflow: hidden;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_prev {
+         margin-top: 0.39vw;
+         display: inline;
+         float: left;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_prev img {
+         width: 3.13vw;
+         height: 3.28vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_month {
+         width: 26.56vw;
+         display: inline;
+         float: left;
+         text-align: center;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_month p {
+         font-size: 1.88vw;
+         font-weight: bold;
+         color: #314359;
+         margin: 0.78vw 0;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_next {
+         margin-top: 0.39vw;
+         display: inline;
+         float: right;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_next img {
+         width: 3.13vw;
+         height: 3.28vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main {
+         width: 32.81vw;
+         font-size: 1.88vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main p {
+         margin: 0;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_weekname {
+         font-weight: bold;
+         margin-top: 1.17vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_week {
+         margin-top: 0.78vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_main_day,
+     .documents_admin_uploadDocument_form2_calender_main_nday {
+         height: 4.69vw;
+         width: 4.69vw;
+         display: table-cell;
+         text-align: center;
+         vertical-align: middle;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend,
+     .documents_admin_uploadDocument_form2_calender_main_nday_weekend {
+         height: 4.69vw;
+         width: 4.69vw;
+         display: table-cell;
+         text-align: center;
+         vertical-align: middle;
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day:hover {
+         background: url(../img/documents/documents_icon_calender_dayhover.svg);
+         background-size: 4.69vw 4.69vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day:active {
+         background: url(../img/documents/documents_icon_calender_dayactive.svg);
+         background-size: 4.69vw 4.69vw;
+         color: #fff;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend:hover {
+         background: url(../img/documents/documents_icon_calender_dayhover.svg);
+         background-size: 4.69vw 4.69vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend:active {
+         background: url(../img/documents/documents_icon_calender_dayactive.svg);
+         background-size: 4.69vw 4.69vw;
+         color: #fff;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_none{
+        height: 4.69vw;
+        width: 4.69vw;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        color: #9A9A9A;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+     /* Documents Admin Panel */
+
+
+     .documents_admin_addDocument {
+         width: 88vw;
+         min-height: 54.69vw;
+         margin-top: 5.86vw;
+         display: inline;
+         float: left;
+         box-sizing: border-box;
+     }
+
+
+     /* Documents Admin Upload Form */
+
+     .documents_admin_uploadDocument_form {
+         min-height: 23.85vw;
+         width: 88.3vw;
+         margin-top: 5.86vw;
+         display: inline-block;
+         border: 1px solid #9A9A9A;
+
+         background-color: #FFFFFF;
+     }
+
+     .documents_admin_uploadDocument_button {
+         width: 52.08vw;
+         height: 10.42vw;
+         margin: 7vw 0 0 17vw;
+
+         border: none;
+         background: #86B2E3 url('../img/documents/documents_icon_uploud.svg') 3.91vw center no-repeat;
+         padding-left: 7.16vw;
+         background-size: 6.51vw 7.81vw;
+         color: #fff;
+         font-size: 3.13vw;
+         font-weight: bold;
+         display: inline;
+         float: left;
+     }
+
+     .documents_admin_uploadDocument_button:hover {
+         background-color: #3978DF;
+     }
+
+     .documents_admin_uploadDocument_dragndrop {
+         width: 26.04vw;
+         height: 14.32vw;
+         margin: 9.77vw 0 0 26.04vw;
+         display: none;
+         float: left;
+         text-align: center;
+         background: url('../img/documents/documents_upload_dragndrop.svg') center center no-repeat;
+         background-size: 15.36vw 12.63vw;
+     }
+
+     .documents_admin_uploadDocument_dragndrop p {
+         font-size: 2.34vw;
+         color: #314359;
+         margin-top: 10.42vw;
+     }
+
+
+     /* Documents Admin Edit&Delete Form */
+
+     .documents_admin_editDelete_form {
+         margin-top: 5.86vw;
+         width: 88.3vw;
+         height: 6.51vw;
+         text-align: right;
+     }
+
+     .documents_admin_editDelete_button_edit {
+         height: 6.51vw;
+         width: 31.25vw;
+         padding-left: 5.86vw;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_edit.svg') 1.95vw center no-repeat;
+         background-size: 3.52vw 3.65vw;
+         font-size: 3.13vw;
+         color: #314359;
+     }
+
+     .documents_admin_editDelete_button_edit:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 1.95vw center no-repeat;
+         background-size: 3.52vw 3.65vw;
+     }
+
+     .documents_admin_editDelete_button_delete {
+         height: 6.51vw;
+         width: 21.48vw;
+         padding-left: 4.56vw;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_delete.svg') 1.95vw center no-repeat;
+         background-size: 3.13vw 2.99vw;
+         font-size: 3.13vw;
+         color: #314359;
+     }
+
+     .documents_admin_editDelete_button_delete:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 1.95vw center no-repeat;
+         background-size: 3.13vw 2.99vw;
+     }
+
+
+     /* Documents Admin Upload Form 2 */
+
+     .documents_admin_uploadDocument_form2_info {
+         display: inline;
+         float: right;
+     }
+
+     .documents_admin_uploadDocument_form2_department {
+         display: inline;
+         float: left;
+         font-size: 2.34vw;
+         color: #9A9A9A;
+         margin-top: 0.7vw;
+     }
+
+     .documents_admin_uploadDocument_form2_date {
+         display: inline;
+         float: left;
+         font-size: 2.34vw;
+         color: #9A9A9A;
+         margin-top: 0.7vw;
+     }
+
+     .documents_admin_uploadDocument_form2 {
+         padding: 5.86vw 5.86vw 7.86vw 5.86vw;
+         box-sizing: border-box;
+         min-height: 35.16vw;
+         width: 88.3vw;
+         margin-top: 5.86vw;
+         display: inline-block;
+         border: 1px solid #9A9A9A;
+
+         background-color: #FFF;
+
+     }
+
+     .documents_admin_uploadDocument_form2_buttons {
+         display: block;
+         text-align: right;
+     }
+
+     .documents_admin_uploadDocument_form2_delete {
+         height: 6.51vw;
+         width: 21.48vw;
+         padding-left: 4.56vw;
+         margin: 0 1.95vw 0 0;
+         border: none;
+         background: #FFF url('../img/documents/documents_icon_delete.svg') 1.95vw center no-repeat;
+         background-size: 3.13vw 3.13vw;
+         font-size: 3.13vw;
+         color: #314359;
+     }
+
+     .documents_admin_uploadDocument_form2_delete:hover {
+         background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 1.95vw center no-repeat;
+         background-size: 3.13vw 3.13vw;
+     }
+
+     .documents_admin_uploadDocument_form2_publish {
+         height: 6.51vw;
+         width: 34.11vw;
+         padding-left: 5.56vw;
+         margin: 0;
+         border: none;
+         background: #4379B7 url('../img/documents/documents_icon_publish.svg') 1.95vw center no-repeat;
+         background-size: 3.65vw 3.13vw;
+         font-size: 3.13vw;
+         color: #FFF;
+     }
+
+     .documents_admin_uploadDocument_form2_publish:hover {
+         background: #3978DF url('../img/documents/documents_icon_publish.svg') 1.95vw center no-repeat;
+         background-size: 3.65vw 3.13vw;
+     }
+
+     .documents_admin_uploadDocument_form2_name {
+         width: 72vw;
+         height: 13.02vw;
+         padding-left: 3.26vw;
+         border: 1px solid #EBEBEB;
+         font-size: 3.13vw;
+         color: #314359;
+         margin: 2.6vw 0;
+         display: inline;
+         float: right;
+     }
+
+     .documents_admin_uploadDocument_form2_name:hover {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_name:focus {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_name::placeholder {
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_typeSize {
+         display: inline;
+         float: left;
+         font-size: 2.34vw;
+         font-weight: bold;
+         color: #314359;
+         /* margin: 2.6vw 0; */
+         margin-top: 27.5vw;
+         position: absolute;
+     }
+
+     .documents_admin_uploadDocument_form2_typeSize p {
+         margin: 0;
+     }
+
+     .documents_admin_uploadDocument_form2_date_calenderIcon {
+         display: inline-block;
+         width: 4.69vw;
+         height: 4.04vw;
+         margin: 2.4vw 0 0 1.82vw;
+         background: url('../img/documents/documents_icon_calender.svg');
+         background-size: 4.69vw 4.04vw;
+     }
+
+     .documents_admin_uploadDocument_form2_date_calenderIcon:hover {
+         background: url('../img/documents/documents_icon_calender_active.svg');
+         background-size: 4.69vw 4.04vw;
+     }
+
+
+     /* Documents Admin Upload Form 2  -  Category List */
+
+     .documents_admin_uploadDocument_form2_listInputStyle {
+         display: inline;
+         float: left;
+         margin: 2.08vw 0;
+         padding: 0 15px;
+         width: 55vw;
+         box-sizing: border-box;
+         height: 5.34vw;
+         font-size: 2.34vw;
+         color: #9A9A9A;
+         text-align: right;
+         border: 1px solid #EBEBEB;
+     }
+
+     .documents_admin_uploadDocument_form2_listInputStyle:hover {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_listInputStyle:focus {
+         outline: 1px solid #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_listStyle {
+         width: 70.31vw;
+         height: 3.91vw;
+         border: 1px solid #EBEBEB;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist {
+         display: inline-block;
+         min-height: 3.91vw;
+         width: 62.5vw;
+         padding: 2.6vw 0;
+         background-color: #fff;
+         box-shadow: 0px 1.3vw 5.31vw rgba(0, 0, 0, 0.15);
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item {
+         width: 53.78vw;
+         height: 3.91vw;
+         margin: 3.26vw auto;
+         display: block;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p {
+         font-size: 2.6vw;
+         color: #314359;
+         margin: 0
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p:hover {
+         color: #EE7049;
+     }
+
+     .documents_admin_uploadDocument_form2_datelist_item p:active {
+         color: #EE7049;
+     }
+
+     /* Documents Admin Upload Form 2  -  Calender */
+
+     .documents_admin_uploadDocument_form2_calender {
+         display: inline-block;
+         width: 62.5vw;
+         height: 78.13vw;
+         padding: 5.21vw 3.91vw;
+         display: inline-block;
+         box-sizing: border-box;
+         background-color: #FFF;
+         box-shadow: 0px 1.3vw 5.21vw rgba(0, 0, 0, 0.15);
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher {
+         width: 100%;
+         height: 6.51vw;
+         display: block;
+         overflow: hidden;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_prev {
+         margin-top: 0.65vw;
+         display: inline;
+         float: left;
+         width: 5.21vw;
+         height: 5.47vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_month {
+         width: 44.27vw;
+         display: inline;
+         float: left;
+         text-align: center;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_month p {
+         font-size: 3.13vw;
+         font-weight: bold;
+         color: #314359;
+         margin: 1.3vw 0;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_monthSwitcher_next {
+         margin-top: 0.65vw;
+         display: inline;
+         float: right;
+         width: 5.21vw;
+         height: 5.47vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_main {
+         width: 54.69vw;
+         font-size: 3.13vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main p {
+         margin: 0;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_weekname {
+         font-weight: bold;
+         margin-top: 1.95vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_week {
+         margin-top: 1.3vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_main_day,
+     .documents_admin_uploadDocument_form2_calender_main_nday {
+         height: 7.81vw;
+         width: 7.81vw;
+         display: table-cell;
+         text-align: center;
+         vertical-align: middle;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend,
+     .documents_admin_uploadDocument_form2_calender_main_nday_weekend {
+         height: 7.81vw;
+         width: 7.81vw;
+         display: table-cell;
+         text-align: center;
+         vertical-align: middle;
+         color: #9A9A9A;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day:hover {
+         background: url(../img/documents/documents_icon_calender_dayhover.svg);
+         background-size: 7.81vw 7.81vw;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day:active {
+         background: url(../img/documents/documents_icon_calender_dayactive.svg);
+         background-size: 7.81vw 7.81vw;
+         color: #fff;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend:hover {
+         background: url(../img/documents/documents_icon_calender_dayhover.svg);
+         background-size: 7.81vw 7.81vw;
+     }
+
+
+     .documents_admin_uploadDocument_form2_calender_main_day_weekend:active {
+         background: url(../img/documents/documents_icon_calender_dayactive.svg);
+         background-size: 7.81vw 7.81vw;
+         color: #fff;
+     }
+
+     .documents_admin_uploadDocument_form2_calender_main_day_none {
+        height: 7.81vw;
+        width: 7.81vw;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        color: #9A9A9A;
+    }
+ }
+
