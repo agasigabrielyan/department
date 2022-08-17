@@ -81,6 +81,7 @@ body {
     text-decoration: none;
     color: #314359;
     border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
 }
 
 .header_main_menu_item a:hover {
@@ -448,6 +449,10 @@ body {
 .content_statistics_item_text {
     font-size: 1.25vw;
     margin: 0 0 0 4.17vw;
+}
+
+.statistic-digit {
+    min-height: 100px;
 }
 
 
