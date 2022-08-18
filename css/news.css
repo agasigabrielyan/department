@@ -144,7 +144,7 @@ textarea {
 }
 
 .newsp_add_item_form_button_publish:hover {
-    background: #3978DF url('../img/documents/documents_icon_publish.svg') 15px center no-repeat;
+    background: #3978DF url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
     background-size: 1.25vw 1.2vw;
 
 }
@@ -371,7 +371,7 @@ textarea {
     }
 
     .newsp_add_item_form_button_publish:hover {
-        background: #3978DF url('../img/documents/documents_icon_publish.svg') 15px center no-repeat;
+        background: #3978DF url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
         background-size: 1.25vw 1.2vw;
 
     }
