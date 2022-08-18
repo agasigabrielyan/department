@@ -56,6 +56,8 @@ textarea {
 .newsp_item_readmore_icon {
     display: inline-block;
     margin: 0 0.78vw;
+    width: 1.15vw;
+    height: 0.68vw;
 }
 
 .newsp_item_links {
@@ -281,6 +283,8 @@ textarea {
     .newsp_item_readmore_icon {
         display: inline-block;
         margin: 0 0.78vw;
+        width: 1.15vw;
+        height: 0.68vw;
     }
 
     .newsp_item_links {
@@ -512,7 +516,9 @@ textarea {
 
     .newsp_item_readmore_icon {
         display: inline-block;
-        margin: 0 1.17vw;
+        margin: 0 1.17vw;    
+        width: 1.72vw;
+        height: 1.02vw;
     }
 
     .newsp_item_links {
@@ -746,6 +752,8 @@ textarea {
     .newsp_item_readmore_icon {
         display: inline-block;
         margin: 0 1.95vw;
+        width: 2.86vw;
+        height: 1.69vw;
     }
 
     .newsp_item_links {
