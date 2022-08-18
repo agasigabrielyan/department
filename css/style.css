@@ -15,6 +15,11 @@ body {
     color: #314359;
 }
 
+input,
+textarea {
+    font-family: 'IBM Plex Sans';
+}
+
 .clear {
     clear: both;
 }

@@ -1,6 +1,10 @@
  /* Documents Admin Panel */
 
-
+ input,
+ textarea {
+     font-family: 'IBM Plex Sans';
+ }
+ 
  /* MORE THAN 1920 */
 
  .documents_admin_addDocument {
