@@ -1,0 +1,1125 @@
+input,
+textarea {
+    font-family: 'IBM Plex Sans';
+}
+
+/* MORE THAN 1920 */
+
+/* Column Label */
+
+.column_label {
+    margin-top: 1.56vw;
+    margin-left: 4.17vw;
+}
+
+.column_label_text {
+    font-size: 4.69vw;
+}
+
+/* Column Item */
+
+.column_item {
+    width: 62.76vw;
+    min-height: 36.2vw;
+    margin: 0 0 1.88vw 4.17vw;
+    padding: 0 2.29vw 2.71vw 2.29vw;
+    box-sizing: border-box;
+    border: 1px solid #9A9A9A;
+
+}
+
+.column_item_date {
+    font-size: 0.94vw;
+    color: #9A9A9A;
+    margin: 0;
+}
+
+.column_item_name {
+    font-size: 1.98vw;
+    color: #314359;
+    font-weight: bold;
+}
+
+.column_item_text p {
+    font-size: 1.25vw;
+}
+
+.column_item_readmore {
+    float: left;
+}
+
+.column_item_readmore_text {
+    display: inline-block;
+    margin: 0.36vw 0;
+}
+
+.column_item_readmore_icon {
+    display: inline-block;
+    margin: 0 0.78vw;
+    width: 1.15vw;
+    height: 0.68vw;
+}
+
+.column_item_links {
+    display: inline;
+    float: right;
+}
+
+.column_item_links_copylink {
+    display: inline-block;
+    width: 2.19vw;
+    height: 1.98vw;
+    background: url('../img/Column/copylink.svg') no-repeat;
+    background-size: 2.19vw 1.98vw;
+    margin-left: 1.04vw;
+}
+
+.column_item_links_copylink:hover {
+    background: url('../img/Column/copylink_active.svg') no-repeat;
+    background-size: 2.19vw 1.98vw;
+}
+
+.column_item_links_sharelink {
+    display: inline-block;
+    width: 2.14vw;
+    height: 2.14vw;
+    background: url('../img/Column/sharelink.svg') no-repeat;
+    background-size: 2.14vw 2.14vw;
+    margin-left: 1.04vw;
+}
+
+.column_item_links_sharelink:hover {
+    background: url('../img/Column/sharelink_active.svg') no-repeat;
+}
+
+
+/* Add Column Item Form */
+
+.column_add_item {
+    width: 62.76vw;
+    min-height: 36.2vw;
+    margin: 0 0 1.88vw 4.17vw;
+    padding: 2.71vw 2.29vw;
+    box-sizing: border-box;
+    border: 1px solid #9A9A9A;
+}
+
+.column_add_item_form_datepicker::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.column_add_item_form_datepicker {
+    padding: 0 0.78vw;
+    width: 12.76vw;
+    height: 2.34vw;
+    border: 1px solid #EBEBEB;
+    background: #fff url('../img/Column/button_icon_calender.svg') 11.46vw 0.21vw no-repeat;
+    background-size: 1.98vw 1.88vw;
+    font-size: 1.25vw;
+    color: #9A9A9A;
+    display: inline;
+    float: left;
+}
+
+.column_add_item_form_datepicker:hover,
+.column_add_item_form_datepicker:focus {
+    outline: 1px solid #4379B7;
+    background: #fff url('../img/Column/button_icon_calender_active.svg') 11.46vw 0.21vw no-repeat;
+    background-size: 1.98vw 1.88vw;
+}
+
+.column_add_item_form_button_publish {
+    height: 2.6vw;
+    width: 13.65vw;
+    padding-left: 1.82vw;
+    margin: 0;
+    border: none;
+    background: #4379B7 url('../img/column/column_icon_publish.svg') 0.78vw center no-repeat;
+    background-size: 1.25vw 1.2vw;
+    border-radius: 0.42vw;
+    font-size: 1.25vw;
+    color: #FFF;
+    display: inline;
+    float: right;
+}
+
+.column_add_item_form_button_publish:hover {
+    background: #3978DF url('../img/column/column_icon_publish.svg') 0.78vw center no-repeat;
+    background-size: 1.25vw 1.2vw;
+
+}
+
+.column_add_item_form_input_name {
+    width: 56.41vw;
+    height: 5.31vw;
+    padding: 0 0.78vw;
+    margin-top: 0.42vw;
+    border: 1px solid #EBEBEB;
+    font-size: 1.98vw;
+    color: #9A9A9A;
+}
+
+.column_add_item_form_input_name::placeholder {
+    color: #DCDCDC;
+}
+
+.column_add_item_form_input_name:hover,
+.column_add_item_form_input_name:focus {
+    outline: 1px solid #4379B7;
+}
+
+.column_add_item_form_input_text {
+    width: 56.41vw;
+    height: 20.83vw;
+    padding: 0.78vw;
+    margin-top: 0.42vw;
+    border: 1px solid #EBEBEB;
+    font-size: 1.25vw;
+    color: #9A9A9A;
+    resize: none;
+}
+
+.column_add_item_form_input_text::placeholder {
+    color: #DCDCDC;
+}
+
+.column_add_item_form_input_text:hover,
+.column_add_item_form_input_text:focus {
+    outline: 1px solid #4379B7;
+}
+
+/* Column Item Edit&Delete Form */
+
+.column_editDelete_item_form {
+    margin-top: 1.3vw;
+    width: 58.59vw;
+    height: 2.6vw;
+    text-align: right;
+}
+
+.column_editDelete_item_form_button_edit {
+    height: 2.6vw;
+    width: 12.5vw;
+    padding-left: 2.34vw;
+    border: none;
+    background: #FFF url('../img/column/column_icon_edit.svg') 0.78vw center no-repeat;
+    background-size: 1.41vw 1.46vw;
+    font-size: 1.25vw;
+    color: #314359;
+}
+
+.column_editDelete_item_form_button_edit:hover {
+    background: #EBEBEB url('../img/column/column_icon_edit.svg') 0.78vw center no-repeat;
+    background-size: 1.41vw 1.46vw;
+}
+
+.column_editDelete_item_form_button_delete {
+    height: 2.6vw;
+    width: 8.59vw;
+    padding-left: 1.82vw;
+    border: none;
+    background: #FFF url('../img/column/column_icon_delete.svg') 0.78vw center no-repeat;
+    background-size: 1.25vw 1.2vw;
+    font-size: 1.25vw;
+    color: #314359;
+}
+
+.column_editDelete_item_form_button_delete:hover {
+    background: #EBEBEB url('../img/column/column_icon_delete.svg') 0.78vw center no-repeat;
+    background-size: 1.25vw 1.2vw;
+}
+
+/* Column Head of Department Info */
+
+.column_headDepartment {
+    display: inline;
+    float: right;
+    width: 26.56vw;
+    min-height: 79.95vw;
+    margin-right: 3.34vw;
+    margin-left: 0;
+    border: 1px solid #9A9A9A;
+    border-radius: 0.42vw;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+.column_headDepartment_photo {
+    display: inline-block;
+    background: url(../img/column/headDepartment_1920.jpg);
+    background-size: 100% auto;
+    width: 100%;
+    height: 35.42vw;
+}
+
+.column_headDepartment_content {
+    padding: 0 2.08vw;
+}
+
+.column_headDepartment_label {
+    font-size: 1.98vw;
+    font-weight: bold;
+}
+
+.column_headDepartment_quotes_lt,
+.column_headDepartment_quotes_rt {
+    width: 2.45vw;
+    height: 2.6vw;
+    padding: 0.42vw 0;
+}
+
+.column_headDepartment_text {
+    font-size: 1.25vw;
+    line-height: 1.82vw;
+}
+
+
+
+
+/* 1920 */
+@media screen and (max-width: 1920px) {
+    /* Column Label */
+
+    .column_label {
+        margin-top: 1.56vw;
+        margin-left: 4.17vw;
+    }
+
+    .column_label_text {
+        font-size: 4.69vw;
+    }
+
+    /* Column Item */
+
+    .column_item {
+        width: 62.76vw;
+        min-height: 36.2vw;
+        margin: 0 0 1.88vw 4.17vw;
+        padding: 0 2.29vw 2.71vw 2.29vw;
+        box-sizing: border-box;
+        border: 1px solid #9A9A9A;
+
+    }
+
+    .column_item_date {
+        font-size: 0.94vw;
+        color: #9A9A9A;
+        margin: 0;
+    }
+
+    .column_item_name {
+        font-size: 1.98vw;
+        color: #314359;
+        font-weight: bold;
+    }
+
+    .column_item_text p {
+        font-size: 1.25vw;
+    }
+
+    .column_item_readmore {
+        float: left;
+    }
+
+    .column_item_readmore_text {
+        display: inline-block;
+        margin: 0.36vw 0;
+    }
+
+    .column_item_readmore_icon {
+        display: inline-block;
+        margin: 0 0.78vw;
+        width: 1.15vw;
+        height: 0.68vw;
+    }
+
+    .column_item_links {
+        display: inline;
+        float: right;
+    }
+
+    .column_item_links_copylink {
+        display: inline-block;
+        width: 2.19vw;
+        height: 1.98vw;
+        background: url('../img/Column/copylink.svg') no-repeat;
+        background-size: 2.19vw 1.98vw;
+        margin-left: 1.04vw;
+    }
+
+    .column_item_links_copylink:hover {
+        background: url('../img/Column/copylink_active.svg') no-repeat;
+        background-size: 2.19vw 1.98vw;
+    }
+
+    .column_item_links_sharelink {
+        display: inline-block;
+        width: 2.14vw;
+        height: 2.14vw;
+        background: url('../img/Column/sharelink.svg') no-repeat;
+        background-size: 2.14vw 2.14vw;
+        margin-left: 1.04vw;
+    }
+
+    .column_item_links_sharelink:hover {
+        background: url('../img/Column/sharelink_active.svg') no-repeat;
+    }
+
+
+    /* Add Column Item Form */
+
+    .column_add_item {
+        width: 62.76vw;
+        min-height: 36.2vw;
+        margin: 0 0 1.88vw 4.17vw;
+        padding: 2.71vw 2.29vw;
+        box-sizing: border-box;
+        border: 1px solid #9A9A9A;
+    }
+
+    .column_add_item_form_datepicker::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+
+    .column_add_item_form_datepicker {
+        padding: 0 0.78vw;
+        width: 12.76vw;
+        height: 2.34vw;
+        border: 1px solid #EBEBEB;
+        background: #fff url('../img/Column/button_icon_calender.svg') 11.46vw 0.21vw no-repeat;
+        background-size: 1.98vw 1.88vw;
+        font-size: 1.25vw;
+        color: #9A9A9A;
+        display: inline;
+        float: left;
+    }
+
+    .column_add_item_form_datepicker:hover,
+    .column_add_item_form_datepicker:focus {
+        outline: 1px solid #4379B7;
+        background: #fff url('../img/Column/button_icon_calender_active.svg') 11.46vw 0.21vw no-repeat;
+        background-size: 1.98vw 1.88vw;
+    }
+
+    .column_add_item_form_button_publish {
+        height: 2.6vw;
+        width: 13.65vw;
+        padding-left: 1.82vw;
+        margin: 0;
+        border: none;
+        background: #4379B7 url('../img/column/column_icon_publish.svg') 0.78vw center no-repeat;
+        background-size: 1.25vw 1.2vw;
+        border-radius: 0.42vw;
+        font-size: 1.25vw;
+        color: #FFF;
+        display: inline;
+        float: right;
+    }
+
+    .column_add_item_form_button_publish:hover {
+        background: #3978DF url('../img/column/column_icon_publish.svg') 0.78vw center no-repeat;
+        background-size: 1.25vw 1.2vw;
+
+    }
+
+    .column_add_item_form_input_name {
+        width: 56.41vw;
+        height: 5.31vw;
+        padding: 0 0.78vw;
+        margin-top: 0.42vw;
+        border: 1px solid #EBEBEB;
+        font-size: 1.98vw;
+        color: #9A9A9A;
+    }
+
+    .column_add_item_form_input_name::placeholder {
+        color: #DCDCDC;
+    }
+
+    .column_add_item_form_input_name:hover,
+    .column_add_item_form_input_name:focus {
+        outline: 1px solid #4379B7;
+    }
+
+    .column_add_item_form_input_text {
+        width: 56.41vw;
+        height: 20.83vw;
+        padding: 0.78vw;
+        margin-top: 0.42vw;
+        border: 1px solid #EBEBEB;
+        font-size: 1.25vw;
+        color: #9A9A9A;
+        resize: none;
+    }
+
+    .column_add_item_form_input_text::placeholder {
+        color: #DCDCDC;
+    }
+
+    .column_add_item_form_input_text:hover,
+    .column_add_item_form_input_text:focus {
+        outline: 1px solid #4379B7;
+    }
+
+    /* Column Item Edit&Delete Form */
+
+    .column_editDelete_item_form {
+        margin-top: 1.3vw;
+        width: 58.59vw;
+        height: 2.6vw;
+        text-align: right;
+    }
+
+    .column_editDelete_item_form_button_edit {
+        height: 2.6vw;
+        width: 12.5vw;
+        padding-left: 2.34vw;
+        border: none;
+        background: #FFF url('../img/column/column_icon_edit.svg') 0.78vw center no-repeat;
+        background-size: 1.41vw 1.46vw;
+        font-size: 1.25vw;
+        color: #314359;
+    }
+
+    .column_editDelete_item_form_button_edit:hover {
+        background: #EBEBEB url('../img/column/column_icon_edit.svg') 0.78vw center no-repeat;
+        background-size: 1.41vw 1.46vw;
+    }
+
+    .column_editDelete_item_form_button_delete {
+        height: 2.6vw;
+        width: 8.59vw;
+        padding-left: 1.82vw;
+        border: none;
+        background: #FFF url('../img/column/column_icon_delete.svg') 0.78vw center no-repeat;
+        background-size: 1.25vw 1.2vw;
+        font-size: 1.25vw;
+        color: #314359;
+    }
+
+    .column_editDelete_item_form_button_delete:hover {
+        background: #EBEBEB url('../img/column/column_icon_delete.svg') 0.78vw center no-repeat;
+        background-size: 1.25vw 1.2vw;
+    }
+
+    /* Column Head of Department Info */
+
+    .column_headDepartment {
+        display: inline;
+        float: right;
+        width: 26.56vw;
+        min-height: 79.95vw;
+        margin-right: 3.34vw;
+        margin-left: 0;
+        border: 1px solid #9A9A9A;
+        border-radius: 0.42vw;
+        overflow: hidden;
+        background-color: #FFF;
+    }
+
+    .column_headDepartment_photo {
+        display: inline-block;
+        background: url(../img/column/headDepartment_1920.jpg);
+        background-size: 100% auto;
+        width: 100%;
+        height: 35.42vw;
+    }
+
+    .column_headDepartment_content {
+        padding: 0 2.08vw;
+    }
+
+    .column_headDepartment_label {
+        font-size: 1.98vw;
+        font-weight: bold;
+    }
+
+    .column_headDepartment_quotes_lt,
+    .column_headDepartment_quotes_rt {
+        width: 2.45vw;
+        height: 2.6vw;
+        padding: 0.42vw 0;
+    }
+
+    .column_headDepartment_text {
+        font-size: 1.25vw;
+        line-height: 1.82vw;
+    }
+
+
+}
+
+/* 1280 */
+@media screen and (max-width: 1280px) {
+
+    input,
+    textarea {
+        font-family: 'IBM Plex Sans';
+    }
+
+    /* Column Label */
+
+    .column_label {
+        margin-top: 2.34vw;
+        margin-left: 6.25vw;
+    }
+
+    .column_label_text {
+        font-size: 7.03vw;
+    }
+
+    /* Column Item */
+
+    .column_item {
+        width: 86.14vw;
+        min-height: 54.3vw;
+        margin: 0 0 2.81vw 6.25vw;
+        padding: 0 3.44vw 4.06vw 3.44vw;
+        box-sizing: border-box;
+        border: 1px solid #9A9A9A;
+
+    }
+
+    .column_item_date {
+        font-size: 1.41vw;
+        color: #9A9A9A;
+        margin: 0;
+    }
+
+    .column_item_name {
+        font-size: 2.97vw;
+        color: #314359;
+        font-weight: bold;
+    }
+
+    .column_item_text p {
+        font-size: 1.88vw;
+    }
+
+    .column_item_readmore {
+        float: left;
+    }
+
+    .column_item_readmore_text {
+        display: inline-block;
+        margin: 0.55vw 0;
+    }
+
+    .column_item_readmore_icon {
+        display: inline-block;
+        margin: 0 1.17vw;
+        width: 1.72vw;
+        height: 1.02vw;
+    }
+
+    .column_item_links {
+        display: inline;
+        float: right;
+    }
+
+    .column_item_links_copylink {
+        display: inline-block;
+        width: 3.28vw;
+        height: 2.97vw;
+        background: url('../img/Column/copylink.svg') no-repeat;
+        background-size: 3.28vw 2.97vw;
+        margin-left: 1.56vw;
+    }
+
+    .column_item_links_copylink:hover {
+        background: url('../img/Column/copylink_active.svg') no-repeat;
+        background-size: 3.28vw 2.97vw;
+    }
+
+    .column_item_links_sharelink {
+        display: inline-block;
+        width: 3.2vw;
+        height: 3.2vw;
+        background: url('../img/Column/sharelink.svg') no-repeat;
+        background-size: 3.28vw 2.97vw;
+        margin-left: 1.56vw;
+    }
+
+    .column_item_links_sharelink:hover {
+        background: url('../img/Column/sharelink_active.svg') no-repeat;
+        background-size: 3.28vw 2.97vw;
+    }
+
+
+    /* Add Column Item Form */
+
+    .column_add_item {
+        width: 86.14vw;
+        min-height: 54.3vw;
+        margin: 0 0 2.81vw 6.25vw;
+        padding: 4.06vw 3.44vw;
+        box-sizing: border-box;
+        border: 1px solid #9A9A9A;
+    }
+
+    .column_add_item_form_datepicker::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+
+    .column_add_item_form_datepicker {
+        padding: 0 1.17vw;
+        width: 19.14vw;
+        height: 3.52vw;
+        border: 1px solid #EBEBEB;
+        background: #fff url('../img/Column/button_icon_calender.svg') 17.19vw 0.31vw no-repeat;
+        background-size: 2.97vw 2.81vw;
+        font-size: 1.88vw;
+        color: #9A9A9A;
+        display: inline;
+        float: left;
+    }
+
+    .column_add_item_form_datepicker:hover,
+    .column_add_item_form_datepicker:focus {
+        outline: 1px solid #4379B7;
+        background: #fff url('../img/Column/button_icon_calender_active.svg') 17.19vw 0.31vw no-repeat;
+        background-size: 2.97vw 2.81vw;
+    }
+
+    .column_add_item_form_button_publish {
+        height: 3.91vw;
+        width: 20.47vw;
+        padding-left: 2.73vw;
+        margin: 0;
+        border: none;
+        background: #4379B7 url('../img/column/column_icon_publish.svg') 1.17vw center no-repeat;
+        background-size: 1.88vw 1.8vw;
+        border-radius: 0.63vw;
+        font-size: 1.88vw;
+        color: #FFF;
+        display: inline;
+        float: right;
+    }
+
+    .column_add_item_form_button_publish:hover {
+        background: #3978DF url('../img/column/column_icon_publish.svg') 1.17vw center no-repeat;
+        background-size: 1.88vw 1.8vw;
+
+    }
+
+    .column_add_item_form_input_name {
+        width: 76.61vw;
+        height: 7.97vw;
+        padding: 0 1.17vw;
+        margin-top: 0.63vw;
+        border: 1px solid #EBEBEB;
+        font-size: 2.97vw;
+        ;
+        color: #9A9A9A;
+    }
+
+    .column_add_item_form_input_name::placeholder {
+        color: #DCDCDC;
+    }
+
+    .column_add_item_form_input_name:hover,
+    .column_add_item_form_input_name:focus {
+        outline: 1px solid #4379B7;
+    }
+
+    .column_add_item_form_input_text {
+        width: 76.61vw;
+        height: 31.25vw;
+        padding: 1.17vw;
+        margin-top: 0.63vw;
+        border: 1px solid #EBEBEB;
+        font-size: 1.88vw;
+        color: #9A9A9A;
+        resize: none;
+    }
+
+    .column_add_item_form_input_text::placeholder {
+        color: #DCDCDC;
+    }
+
+    .column_add_item_form_input_text:hover,
+    .column_add_item_form_input_text:focus {
+        outline: 1px solid #4379B7;
+    }
+
+    /* Column Item Edit&Delete Form */
+
+    .column_editDelete_item_form {
+        margin-top: 1.95vw;
+        width: 80vw;
+        height: 3.91vw;
+        text-align: right;
+    }
+
+    .column_editDelete_item_form_button_edit {
+        height: 3.91vw;
+        width: 18.75vw;
+        padding-left: 3.52vw;
+        border: none;
+        background: #FFF url('../img/column/column_icon_edit.svg') 1.17vw center no-repeat;
+        background-size: 2.11vw 2.19vw;
+        font-size: 1.88vw;
+        color: #314359;
+    }
+
+    .column_editDelete_item_form_button_edit:hover {
+        background: #EBEBEB url('../img/column/column_icon_edit.svg') 1.17vw center no-repeat;
+        background-size: 2.11vw 2.19vw;
+    }
+
+    .column_editDelete_item_form_button_delete {
+        height: 3.91vw;
+        width: 12.89vw;
+        padding-left: 2.73vw;
+        border: none;
+        background: #FFF url('../img/column/column_icon_delete.svg') 1.17vw center no-repeat;
+        background-size: 1.88vw 1.8vw;
+        font-size: 1.88vw;
+        color: #314359;
+    }
+
+    .column_editDelete_item_form_button_delete:hover {
+        background: #EBEBEB url('../img/column/column_icon_delete.svg') 1.17vw center no-repeat;
+        background-size: 1.88vw 1.8vw;
+    }
+
+    /* Column Head of Department Info */
+
+    .column_headDepartment {
+        display: inline;
+        float: left;
+        width: 86.14vw;
+        min-height: 45vw;
+        margin-left: 6.25vw;
+        margin-bottom: 2vw;
+        border: 1px solid #9A9A9A;
+        border-radius: 0.63vw;
+        overflow: hidden;
+        background-color: #FFF;
+    }
+
+    .column_headDepartment_photo {
+        display: inline;
+        float: left;
+        background: url(../img/column/headDepartment_1280.jpg);
+        background-size: 100% auto;
+        width: 40.39vw;
+        height: 45vw;
+
+    }
+
+    .column_headDepartment_content {
+        display: inline;
+        float: left;
+        padding: 0 3.13vw;
+        width: 39vw;
+    }
+
+    .column_headDepartment_label {
+        font-size: 2.19vw;
+        font-weight: bold;
+    }
+
+    .column_headDepartment_quotes_lt,
+    .column_headDepartment_quotes_rt {
+        width: 3.67vw;
+        height: 3.91vw;
+        padding: 0.63vw 0;
+    }
+
+    .column_headDepartment_text {
+        font-size: 1.56vw;
+        line-height: 2.73vw;
+    }
+
+}
+
+/* 768 */
+@media screen and (max-width: 768px) {
+
+    input,
+    textarea {
+        font-family: 'IBM Plex Sans';
+    }
+
+    /* Column Label */
+
+    .column_label {
+        margin-top: 3.91vw;
+        margin-left: 4.4vw;
+    }
+
+    .column_label_text {
+        font-size: 11.72vw;
+    }
+
+    /* Column Item */
+
+    .column_item {
+        width: 90vw;
+        min-height: 108vw;
+        margin: 0 0 4.69vw 4vw;
+        padding: 0 3.8vw 8.69vw 3.8vw;
+        box-sizing: border-box;
+        border: 1px solid #9A9A9A;
+
+    }
+
+    .column_item_date {
+        font-size: 2.34vw;
+        color: #9A9A9A;
+        margin: 0;
+    }
+
+    .column_item_name {
+        font-size: 4.95vw;
+        color: #314359;
+        font-weight: bold;
+    }
+
+    .column_item_text p {
+        font-size: 3.13vw;
+    }
+
+    .column_item_readmore {
+        float: left;
+    }
+
+    .column_item_readmore_text {
+        display: inline-block;
+        margin: 0.91vw 0;
+    }
+
+    .column_item_readmore_icon {
+        display: inline-block;
+        margin: 0 1.95vw;
+        width: 2.86vw;
+        height: 1.69vw;
+    }
+
+    .column_item_links {
+        display: inline;
+        float: right;
+    }
+
+    .column_item_links_copylink {
+        display: inline-block;
+        width: 5.47vw;
+        height: 4.95vw;
+        background: url('../img/Column/copylink.svg') no-repeat;
+        background-size: 5.47vw 4.95vw;
+        margin-left: 2.6vw;
+    }
+
+    .column_item_links_copylink:hover {
+        background: url('../img/Column/copylink_active.svg') no-repeat;
+        background-size: 5.47vw 4.95vw;
+    }
+
+    .column_item_links_sharelink {
+        display: inline-block;
+        width: 5.34vw;
+        height: 5.34vw;
+        background: url('../img/Column/sharelink.svg') no-repeat;
+        background-size: 5.47vw 4.95vw;
+        margin-left: 2.6vw;
+    }
+
+    .column_item_links_sharelink:hover {
+        background: url('../img/Column/sharelink_active.svg') no-repeat;
+        background-size: 5.47vw 4.95vw;
+    }
+
+
+    /* Add Column Item Form */
+
+    .column_add_item {
+        width: 90vw;
+        min-height: 90.49vw;
+        margin: 0 0 4.69vw 4vw;
+        padding: 4.69vw 3.8vw;
+        box-sizing: border-box;
+        border: 1px solid #9A9A9A;
+    }
+
+    .column_add_item_form_datepicker::-webkit-calendar-picker-indicator {
+        display: none;
+    }
+
+    .column_add_item_form_datepicker {
+        padding: 0 1.95vw;
+        width: 31.9vw;
+        height: 5.86vw;
+        border: 1px solid #EBEBEB;
+        background: #fff url('../img/Column/button_icon_calender.svg') 28.65vw 0.52vw no-repeat;
+        background-size: 4.95vw 4.69vw;
+        font-size: 3.13vw;
+        color: #9A9A9A;
+        display: inline;
+        float: left;
+    }
+
+    .column_add_item_form_datepicker:hover,
+    .column_add_item_form_datepicker:focus {
+        outline: 1px solid #4379B7;
+        background: #fff url('../img/Column/button_icon_calender_active.svg') 28.65vw 0.52vw no-repeat;
+        background-size: 4.95vw 4.69vw;
+    }
+
+    .column_add_item_form_button_publish {
+        height: 6.51vw;
+        width: 34.11vw;
+        padding-left: 4.56vw;
+        margin: 0;
+        border: none;
+        background: #4379B7 url('../img/column/column_icon_publish.svg') 1.95vw center no-repeat;
+        background-size: 3.13vw 2.99vw;
+        border-radius: 1.04vw;
+        font-size: 3.13vw;
+        color: #FFF;
+        display: inline;
+        float: right;
+    }
+
+    .column_add_item_form_button_publish:hover {
+        background: #3978DF url('../img/column/column_icon_publish.svg') 1.95vw center no-repeat;
+        background-size: 3.13vw 2.99vw;
+    }
+
+
+    .column_add_item_form_input_name {
+        width: 78vw;
+        height: 13.28vw;
+        padding: 0 1.95vw;
+        margin-top: 1.04vw;
+        border: 1px solid #EBEBEB;
+        font-size: 4.95vw;
+        color: #9A9A9A;
+    }
+
+    .column_add_item_form_input_name::placeholder {
+        color: #DCDCDC;
+    }
+
+    .column_add_item_form_input_name:hover,
+    .column_add_item_form_input_name:focus {
+        outline: 1px solid #4379B7;
+    }
+
+    .column_add_item_form_input_text {
+        width: 78vw;
+        height: 52.08vw;
+        padding: 1.95vw;
+        margin-top: 1.04vw;
+        border: 1px solid #EBEBEB;
+        font-size: 3.13vw;
+        color: #9A9A9A;
+        resize: none;
+    }
+
+    .column_add_item_form_input_text::placeholder {
+        color: #DCDCDC;
+    }
+
+    .column_add_item_form_input_text:hover,
+    .column_add_item_form_input_text:focus {
+        outline: 1px solid #4379B7;
+    }
+
+    /* Column Item Edit&Delete Form */
+
+    .column_editDelete_item_form {
+        margin-top: 3.26vw;
+        width: 80vw;
+        height: 6.51vw;
+        text-align: right;
+    }
+
+    .column_editDelete_item_form_button_edit {
+        height: 6.51vw;
+        width: 31.25vw;
+        padding-left: 5.86vw;
+        border: none;
+        background: #FFF url('../img/column/column_icon_edit.svg') 1.95vw center no-repeat;
+        background-size: 3.52vw 3.65vw;
+        font-size: 3.13vw;
+        color: #314359;
+    }
+
+    .column_editDelete_item_form_button_edit:hover {
+        background: #EBEBEB url('../img/column/column_icon_edit.svg') 1.95vw center no-repeat;
+        background-size: 3.52vw 3.65vw;
+    }
+
+    .column_editDelete_item_form_button_delete {
+        height: 6.51vw;
+        width: 21.48vw;
+        padding-left: 4.56vw;
+        border: none;
+        background: #FFF url('../img/column/column_icon_delete.svg') 1.95vw center no-repeat;
+        background-size: 3.13vw 2.99vw;
+        font-size: 3.13vw;
+        color: #314359;
+    }
+
+    .column_editDelete_item_form_button_delete:hover {
+        background: #EBEBEB url('../img/column/column_icon_delete.svg') 1.95vw center no-repeat;
+        background-size: 3.13vw 2.99vw;
+    }
+
+    /* Column Head of Department Info */
+
+    .column_headDepartment {
+        display: inline;
+        float: left;
+        width: 90vw;
+        min-height: 152vw;
+        margin-left: 4vw;
+        border: 1px solid #9A9A9A;
+        border-radius: 1.04vw;
+        overflow: hidden;
+        background-color: #FFF;
+    }
+
+    .column_headDepartment_content {
+        width: 79.5vw;
+    }
+
+    .column_headDepartment_photo {
+        display: inline;
+        float: left;
+        background: url(../img/column/headDepartment_768.jpg);
+        background-size: 100% auto;
+        width: 90vw;
+        height: 67vw;
+
+    }
+
+    .column_headDepartment_content {
+        padding: 0 5.21vw;
+    }
+
+    .column_headDepartment_label {
+        font-size: 4.95vw;
+        font-weight: bold;
+    }
+
+    .column_headDepartment_quotes_lt {
+        width: 6.12vw;
+        height: 6.51vw;
+        padding: 1.04vw 0;
+    }
+
+    .column_headDepartment_quotes_rt {
+        width: 6.12vw;
+        height: 6.51vw;
+        padding: 1.04vw 0;
+        float: right;
+    }
+
+    .column_headDepartment_text {
+        font-size: 3.13vw;
+        line-height: 4.56vw;
+    }
+
+}

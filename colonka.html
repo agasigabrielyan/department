@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/ibm-plex.css" rel="stylesheet">
+    <link href="./css/column.css" rel="stylesheet">
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="./fonts/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./fonts/favicon/apple-icon-60x60.png">
@@ -17,7 +19,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="./fonts/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="./fonts/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./fonts/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./fonts/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./fonts/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./fonts/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./fonts/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fonts/favicon/favicon-16x16.png">
@@ -26,96 +28,215 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- endfavicons -->
-    <title>Колонка руководителя</title>
+    <title>Колонка начальника Департамента</title>
 </head>
 
 
 <body>
-<!-- header  -->
-<div class="header_main">
-    <!-- Логотип -->
-    <div class="header_logo">
-        <a href="/">
-            <img src="./img/logo_department651.svg">
-        </a>
-    </div>
-    <!-- Главное меню -->
-    <div class="header_main_menu">
-        <div class="header_main_menu_item">
-            <p>
-                <a data-id="about-documents" class="header_main_menu__link" href="">Документы</a>
-            </p>
+    <!-- header  -->
+    <div class="header_main">
+        <!-- Логотип -->
+        <div class="header_logo">
+            <a href="/">
+                <img src="./img/logo_department651.svg">
+            </a>
         </div>
-        <div class="header_main_menu_item">
-            <p>
-                <a data-id="about-department" class="header_main_menu__link" href="">О департаменте</a>
-            </p>
-        </div>
-        <div class="header_main_menu_item">
-            <p>
-                <a data-id="about-statistics" class="header_main_menu__link" href="">Деятельность</a>
-            </p>
-        </div>
-        <div class="header_main_menu_item">
-            <p>
-                <a data-id="about-structure" class="header_main_menu__link" href="">Структура</a>
-            </p>
-        </div>
-        <!-- Меню-иконки -->
-        <div class="header_main_menu_icons">
-            <div class="header_exit">
-                <a href="">
-                    <img src="./img/header_exit_icon.svg">
-                </a>
+        <!-- Главное меню -->
+        <div class="header_main_menu">
+            <div class="header_main_menu_item">
+                <p>
+                    <a data-id="about-documents" class="header_main_menu__link" href="">Документы</a>
+                </p>
             </div>
-            <div class="header_hamburger_menu <!--nav-icon_opened-menu-->">
-                <div id="nav-icon3">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+            <div class="header_main_menu_item">
+                <p>
+                    <a data-id="about-department" class="header_main_menu__link" href="">О департаменте</a>
+                </p>
+            </div>
+            <div class="header_main_menu_item">
+                <p>
+                    <a data-id="about-statistics" class="header_main_menu__link" href="">Деятельность</a>
+                </p>
+            </div>
+            <div class="header_main_menu_item">
+                <p>
+                    <a data-id="about-structure" class="header_main_menu__link" href="">Структура</a>
+                </p>
+            </div>
+            <!-- Меню-иконки -->
+            <div class="header_main_menu_icons">
+                <div class="header_exit">
+                    <a href="">
+                        <img src="./img/header_exit_icon.svg">
+                    </a>
+                </div>
+                <div class="header_hamburger_menu <!--nav-icon_opened-menu-->">
+                    <div id="nav-icon3">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
-</div>
+    <div class="content">
+        <!-- Название -->
+        <div class="column_label">
+            <h1 class="column_label_text">Колонка начальника Департамента</h1>
+        </div>
+        <div class="column_headDepartment">
+            <div class="column_headDepartment_photo"></div>
+            <!-- <img src="./img/column/headDepartment.jpg" alt="" class="column_headDepartment_photo"> -->
+            <div class="column_headDepartment_content">
+                <p class="column_headDepartment_label">Николай Анатольевич Кисленко</p>
+                <img src="./img/column/quotes_left.svg" alt="" class="column_headDepartment_quotes_lt">
+                <p class="column_headDepartment_text">
+                    Мы строим цифровую нефтяную компанию – нефтяную компанию, управляемую на основе данных и цифровых
+                    двойников. 70% цифровых инициатив с зависит от доступности данных - Внедрение корпоративной
+                    платформы
+                    Управления данными (RHD) обеспечивает оперативный доступ к качественным данным, аналитической
+                    отчетности
+                    для поддержки принятия управленческих решений Бизнесом
+                </p>
+                <img src="./img/column/quotes_right.svg" alt="" class="column_headDepartment_quotes_rt">
+            </div>
+        </div>
+        <div class="column_list" style="display: inline; float: left;">
+            <div class="column_add_item">
+                <form action="" class="column_add_item_form">
+                    <input type="date" class="column_add_item_form_datepicker">
+                    <input type="button" class="column_add_item_form_button_publish" value="Опубликовать">
+                    <input type="text" class="column_add_item_form_input_name" placeholder="Название">
+                    <textarea class="column_add_item_form_input_text" id="" placeholder="Текст"></textarea>
+                </form>
+            </div>
+            <div class="column_item">
+                <!-- Админка редактировать/удалить документ -->
+                <form action="" class="column_editDelete_item_form">
+                    <input type="button" class="column_editDelete_item_form_button_edit" value="Редактировать">
+                    <input type="button" class="column_editDelete_item_form_button_delete" value="Удалить">
+                </form>
+                <p class="column_item_date">07.06.2022</p>
+                <p class="column_item_name">2022 — год инноваций</p>
+                <div class="column_item_text">
+                    <p>2022 год мы объявили в компании Годом инноваций. Он пройдет под знаком научной работы и внедрения
+                        передовых технологий.
+                    </p>
+                    <p>ПАО «Газпром» рассматривает развитие инновационной активности в качестве приоритетных направлений
+                        своей деятельности. В нашем Обществе оно представлено рационализаторской, изобретательской и
+                        патентно-лицензионной деятельностью, научно-исследовательскими и опытно-конструкторскими
+                        работами, а
+                        также внедрением инновационной продукции.
+                    </p>
+                    <p>Наши сотрудники предлагают много идей для усовершенствования производственных процессов,
+                        организации
+                        более эффективной работы. Рационализаторская активность в компании повышается.
+                    </p>
+                    <div class="column_item_readmore">
+                        <p class="column_item_readmore_text">Читать</p>
+                        <img class="column_item_readmore_icon" src="img/column/readmore_chevron_down.svg" alt="">
+                    </div>
+                    <div class="column_item_links">
+                        <div class="column_item_links_copylink"></div>
+                        <div class="column_item_links_sharelink"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column_item">
+                <!-- Админка редактировать/удалить документ -->
+                <form action="" class="column_editDelete_item_form">
+                    <input type="button" class="column_editDelete_item_form_button_edit" value="Редактировать"
+                        style="display: none;">
+                    <input type="button" class="column_editDelete_item_form_button_delete" value="Удалить"
+                        style="display: none;">
+                </form>
+                <p class="column_item_date">07.06.2022</p>
+                <p class="column_item_name">2022 — год инноваций</p>
+                <div class="column_item_text">
+                    <p>2022 год мы объявили в компании Годом инноваций. Он пройдет под знаком научной работы и внедрения
+                        передовых технологий.
+                    </p>
+                    <p>ПАО «Газпром» рассматривает развитие инновационной активности в качестве приоритетных направлений
+                        своей деятельности. В нашем Обществе оно представлено рационализаторской, изобретательской и
+                        патентно-лицензионной деятельностью, научно-исследовательскими и опытно-конструкторскими
+                        работами, а
+                        также внедрением инновационной продукции.
+                    </p>
+                    <p>Наши сотрудники предлагают много идей для усовершенствования производственных процессов,
+                        организации
+                        более эффективной работы. Рационализаторская активность в компании повышается.
+                    </p>
+                    <div class="column_item_readmore">
+                        <p class="column_item_readmore_text">Читать</p>
+                        <img class="column_item_readmore_icon" src="img/column/readmore_chevron_down.svg" alt="">
+                    </div>
+                    <div class="column_item_links">
+                        <div class="column_item_links_copylink"></div>
+                        <div class="column_item_links_sharelink"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
-Тут будет колонка руководителя
 
-<div class="footer">
-    <div class="footer_menu">
-        <div class="clear"></div>
-        <div class="footer_menu_item">
-            <p><span class="decoration_text_underline">Корпоративный портал</span></p>
-        </div>
-        <div class="footer_menu_item">
-            <p><span class="decoration_text_underline">Интранет-портал</span></p>
-        </div>
-        <div class="footer_menu_item">
-            <p><span class="decoration_text_underline">gazprom.ru</span></p>
-        </div>
-        <div class="footer_menu_item_order">
-            <p>Заказать разработку внутреннего сайта → </p>
+    <div class="footer">
+        <div class="footer_menu">
+            <div class="clear"></div>
+            <div class="footer_menu_item">
+                <p><span class="decoration_text_underline">Корпоративный портал</span></p>
+            </div>
+            <div class="footer_menu_item">
+                <p><span class="decoration_text_underline">Интранет-портал</span></p>
+            </div>
+            <div class="footer_menu_item">
+                <p><span class="decoration_text_underline">gazprom.ru</span></p>
+            </div>
+            <div class="footer_menu_item_order">
+                <p>Заказать разработку внутреннего сайта → </p>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="menu-wrapper">
-    <div class="menu-wrapper__content">
-        <div class="menu-wrapper__search">
-            <form class="menu-wrapper__search-form">
-                <input type="search" name="search" placeholder="Что ищем" />
-            </form>
+    <div class="menu-wrapper">
+        <div class="menu-wrapper__content">
+            <div class="menu-wrapper__search">
+                <form class="menu-wrapper__search-form">
+                    <input type="search" name="search" placeholder="Что ищем" />
+                </form>
+            </div>
         </div>
     </div>
-</div>
 
-<div class="scroll-up-wrapper scroll-up-wrapper_hidden" title="Вверх">
-    <svg width="32" height="32" x="0" y="0" viewBox="0 0 512 511" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m512 256.5-256-256-256 256 70.328125 70.328125 185.640625-185.636719.03125-.03125 185.671875 185.667969zm0 0" fill="#4ed8df" data-original="#4ed8df" class=""></path><path xmlns="http://www.w3.org/2000/svg" d="m512 441.460938-256-256-.03125.027343-255.96875 255.972657 70.328125 70.328124 185.640625-185.640624.03125-.027344 185.671875 185.667968zm0 0" fill="#4ed8df" data-original="#4ed8df" class=""></path><g xmlns="http://www.w3.org/2000/svg" fill="#11a9c6"><path d="m441.671875 326.828125 70.328125-70.328125-256-256-.03125.03125v140.660156l.03125-.03125zm0 0" fill="#11a9c6" data-original="#11a9c6" class=""></path><path d="m256 185.460938-.03125.027343v140.660157l.03125-.027344 185.671875 185.667968 70.328125-70.328124zm0 0" fill="#11a9c6" data-original="#11a9c6" class=""></path></g></g></svg>
-</div>
+    <div class="scroll-up-wrapper scroll-up-wrapper_hidden" title="Вверх">
+        <svg width="32" height="32" x="0" y="0" viewBox="0 0 512 511" style="enable-background:new 0 0 512 512"
+            xml:space="preserve" class="">
+            <g>
+                <path xmlns="http://www.w3.org/2000/svg"
+                    d="m512 256.5-256-256-256 256 70.328125 70.328125 185.640625-185.636719.03125-.03125 185.671875 185.667969zm0 0"
+                    fill="#4ed8df" data-original="#4ed8df" class=""></path>
+                <path xmlns="http://www.w3.org/2000/svg"
+                    d="m512 441.460938-256-256-.03125.027343-255.96875 255.972657 70.328125 70.328124 185.640625-185.640624.03125-.027344 185.671875 185.667968zm0 0"
+                    fill="#4ed8df" data-original="#4ed8df" class=""></path>
+                <g xmlns="http://www.w3.org/2000/svg" fill="#11a9c6">
+                    <path
+                        d="m441.671875 326.828125 70.328125-70.328125-256-256-.03125.03125v140.660156l.03125-.03125zm0 0"
+                        fill="#11a9c6" data-original="#11a9c6" class=""></path>
+                    <path
+                        d="m256 185.460938-.03125.027343v140.660157l.03125-.027344 185.671875 185.667968 70.328125-70.328124zm0 0"
+                        fill="#11a9c6" data-original="#11a9c6" class=""></path>
+                </g>
+            </g>
+        </svg>
+    </div>
 
 </body>
 <script src="./js/jquery.js"></script>
 <script src="./js/script.js"></script>
+
 </html>

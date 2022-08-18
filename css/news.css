@@ -134,7 +134,7 @@ textarea {
     padding-left: 1.82vw;
     margin: 0;
     border: none;
-    background: #4379B7 url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+    background: #4379B7 url('../img/news/news_icon_publish.svg') 0.78vw center no-repeat;
     background-size: 1.25vw 1.2vw;
     border-radius: 0.42vw;
     font-size: 1.25vw;
@@ -144,7 +144,7 @@ textarea {
 }
 
 .newsp_add_item_form_button_publish:hover {
-    background: #3978DF url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+    background: #3978DF url('../img/news/news_icon_publish.svg') 0.78vw center no-repeat;
     background-size: 1.25vw 1.2vw;
 
 }
@@ -202,14 +202,14 @@ textarea {
     width: 12.5vw;
     padding-left: 2.34vw;
     border: none;
-    background: #FFF url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+    background: #FFF url('../img/news/news_icon_edit.svg') 0.78vw center no-repeat;
     background-size: 1.41vw 1.46vw;
     font-size: 1.25vw;
     color: #314359;
 }
 
 .newsp_editDelete_item_form_button_edit:hover {
-    background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+    background: #EBEBEB url('../img/news/news_icon_edit.svg') 0.78vw center no-repeat;
     background-size: 1.41vw 1.46vw;
 }
 
@@ -218,14 +218,14 @@ textarea {
     width: 8.59vw;
     padding-left: 1.82vw;
     border: none;
-    background: #FFF url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+    background: #FFF url('../img/news/news_icon_delete.svg') 0.78vw center no-repeat;
     background-size: 1.25vw 1.2vw;
     font-size: 1.25vw;
     color: #314359;
 }
 
 .newsp_editDelete_item_form_button_delete:hover {
-    background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+    background: #EBEBEB url('../img/news/news_icon_delete.svg') 0.78vw center no-repeat;
     background-size: 1.25vw 1.2vw;
 }
 
@@ -361,7 +361,7 @@ textarea {
         padding-left: 1.82vw;
         margin: 0;
         border: none;
-        background: #4379B7 url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+        background: #4379B7 url('../img/news/news_icon_publish.svg') 0.78vw center no-repeat;
         background-size: 1.25vw 1.2vw;
         border-radius: 0.42vw;
         font-size: 1.25vw;
@@ -371,7 +371,7 @@ textarea {
     }
 
     .newsp_add_item_form_button_publish:hover {
-        background: #3978DF url('../img/documents/documents_icon_publish.svg') 0.78vw center no-repeat;
+        background: #3978DF url('../img/news/news_icon_publish.svg') 0.78vw center no-repeat;
         background-size: 1.25vw 1.2vw;
 
     }
@@ -429,14 +429,14 @@ textarea {
         width: 12.5vw;
         padding-left: 2.34vw;
         border: none;
-        background: #FFF url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+        background: #FFF url('../img/news/news_icon_edit.svg') 0.78vw center no-repeat;
         background-size: 1.41vw 1.46vw;
         font-size: 1.25vw;
         color: #314359;
     }
 
     .newsp_editDelete_item_form_button_edit:hover {
-        background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 0.78vw center no-repeat;
+        background: #EBEBEB url('../img/news/news_icon_edit.svg') 0.78vw center no-repeat;
         background-size: 1.41vw 1.46vw;
     }
 
@@ -445,14 +445,14 @@ textarea {
         width: 8.59vw;
         padding-left: 1.82vw;
         border: none;
-        background: #FFF url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+        background: #FFF url('../img/news/news_icon_delete.svg') 0.78vw center no-repeat;
         background-size: 1.25vw 1.2vw;
         font-size: 1.25vw;
         color: #314359;
     }
 
     .newsp_editDelete_item_form_button_delete:hover {
-        background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 0.78vw center no-repeat;
+        background: #EBEBEB url('../img/news/news_icon_delete.svg') 0.78vw center no-repeat;
         background-size: 1.25vw 1.2vw;
     }
 
@@ -596,7 +596,7 @@ textarea {
         padding-left: 2.73vw;
         margin: 0;
         border: none;
-        background: #4379B7 url('../img/documents/documents_icon_publish.svg') 1.17vw center no-repeat;
+        background: #4379B7 url('../img/news/news_icon_publish.svg') 1.17vw center no-repeat;
         background-size: 1.88vw 1.8vw;
         border-radius: 0.63vw;
         font-size: 1.88vw;
@@ -606,7 +606,7 @@ textarea {
     }
 
     .newsp_add_item_form_button_publish:hover {
-        background: #3978DF url('../img/documents/documents_icon_publish.svg') 1.17vw center no-repeat;
+        background: #3978DF url('../img/news/news_icon_publish.svg') 1.17vw center no-repeat;
         background-size: 1.88vw 1.8vw;
 
     }
@@ -665,14 +665,14 @@ textarea {
         width: 18.75vw;
         padding-left: 3.52vw;
         border: none;
-        background: #FFF url('../img/documents/documents_icon_edit.svg') 1.17vw center no-repeat;
+        background: #FFF url('../img/news/news_icon_edit.svg') 1.17vw center no-repeat;
         background-size: 2.11vw 2.19vw;
         font-size: 1.88vw;
         color: #314359;
     }
 
     .newsp_editDelete_item_form_button_edit:hover {
-        background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 1.17vw center no-repeat;
+        background: #EBEBEB url('../img/news/news_icon_edit.svg') 1.17vw center no-repeat;
         background-size: 2.11vw 2.19vw;
     }
 
@@ -681,14 +681,14 @@ textarea {
         width: 12.89vw;
         padding-left: 2.73vw;
         border: none;
-        background: #FFF url('../img/documents/documents_icon_delete.svg') 1.17vw center no-repeat;
+        background: #FFF url('../img/news/news_icon_delete.svg') 1.17vw center no-repeat;
         background-size: 1.88vw 1.8vw;
         font-size: 1.88vw;
         color: #314359;
     }
 
     .newsp_editDelete_item_form_button_delete:hover {
-        background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 1.17vw center no-repeat;
+        background: #EBEBEB url('../img/news/news_icon_delete.svg') 1.17vw center no-repeat;
         background-size: 1.88vw 1.8vw;
     }
 }
@@ -831,7 +831,7 @@ textarea {
         padding-left: 4.56vw;
         margin: 0;
         border: none;
-        background: #4379B7 url('../img/documents/documents_icon_publish.svg') 1.95vw center no-repeat;
+        background: #4379B7 url('../img/news/news_icon_publish.svg') 1.95vw center no-repeat;
         background-size: 3.13vw 2.99vw;
         border-radius: 1.04vw;
         font-size: 3.13vw;
@@ -841,7 +841,7 @@ textarea {
     }
 
     .newsp_add_item_form_button_publish:hover {
-        background: #3978DF url('../img/documents/documents_icon_publish.svg') 1.95vw center no-repeat;
+        background: #3978DF url('../img/news/news_icon_publish.svg') 1.95vw center no-repeat;
         background-size: 3.13vw 2.99vw;
     }
 
@@ -899,14 +899,14 @@ textarea {
         width: 31.25vw;
         padding-left: 5.86vw;
         border: none;
-        background: #FFF url('../img/documents/documents_icon_edit.svg') 1.95vw center no-repeat;
+        background: #FFF url('../img/news/news_icon_edit.svg') 1.95vw center no-repeat;
         background-size: 3.52vw 3.65vw;
         font-size: 3.13vw;
         color: #314359;
     }
 
     .newsp_editDelete_item_form_button_edit:hover {
-        background: #EBEBEB url('../img/documents/documents_icon_edit.svg') 1.95vw center no-repeat;
+        background: #EBEBEB url('../img/news/news_icon_edit.svg') 1.95vw center no-repeat;
         background-size: 3.52vw 3.65vw;
     }
 
@@ -915,14 +915,14 @@ textarea {
         width: 21.48vw;
         padding-left: 4.56vw;
         border: none;
-        background: #FFF url('../img/documents/documents_icon_delete.svg') 1.95vw center no-repeat;
+        background: #FFF url('../img/news/news_icon_delete.svg') 1.95vw center no-repeat;
         background-size: 3.13vw 2.99vw;
         font-size: 3.13vw;
         color: #314359;
     }
 
     .newsp_editDelete_item_form_button_delete:hover {
-        background: #EBEBEB url('../img/documents/documents_icon_delete.svg') 1.95vw center no-repeat;
+        background: #EBEBEB url('../img/news/news_icon_delete.svg') 1.95vw center no-repeat;
         background-size: 3.13vw 2.99vw;
     }
 }
