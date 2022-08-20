@@ -131,15 +131,16 @@ let Department = (function() {
 
     function slideDownStructure() {
         $(this).addClass("structure_button_opened");
-        $(this).find("input").val("Свернуть структуру");
+        $(this).find("input").val("Скрыть структуру");
         $(this).find(".content_structure_button_showStructure").addClass("rotated");
-        $(CommonPage.contentStructureBottom).slideDown();
+        $(CommonPage.contentStructureBottom).slideDown(1500);
     }
 
     function slideUpStructure() {
         $(this).removeClass("structure_button_opened");
         $(this).find("input").val("Показать структуру");
-        $(CommonPage.contentStructureBottom).slideUp();
+        $(this).find(".content_structure_button_showStructure").removeClass("rotated");
+        $(CommonPage.contentStructureBottom).slideUp(1500);
     }
 
     /** end: methods **/

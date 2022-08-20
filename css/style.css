@@ -1652,7 +1652,7 @@ textarea {
         border-radius: 8px;
     }
 
-    .content_structure_button_showStructure_active {
+    .content_structure_button_showStructure:hover{
         width: 20.52vw;
         height: 4.27vw;
         font-size: 1.25vw;
@@ -1663,6 +1663,14 @@ textarea {
         border: 0;
         border-radius: 8px;
 
+    }
+
+    .rotated {
+        background-image:url('../img/arrow_up.svg');
+    }
+
+    .rotated:hover {
+        background-image:url('../img/arrow_up_active.svg');
     }
 
 
