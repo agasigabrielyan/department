@@ -6,7 +6,7 @@ let Department = (function() {
         navicon: ('#nav-icon3'),
         mainmenu: ('.menu-wrapper'),
         scrollupwrapper: ('.scroll-up-wrapper'),
-        subitem: ('.content_structure_department_sub_item')
+        subitem: ('.content_structure_department_sub_item'),
 
         /* main page boxes and data */
         digitsActed: false,
