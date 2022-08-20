@@ -20,10 +20,7 @@ let Department = (function() {
     }
 
     let init = function() {
-        $(document).ready(function() {
-            changeDigitsOnLoad();
-            /*setWidthForMenuItems();*/
-        });
+        $(document).ready(function() {changeDigitsOnLoad();});
         $(document).on('click',CommonPage.link, scrollToAnchor);
         $(document).on('click', CommonPage.navicon, toggleNavIcon);
         $(document).on('scroll', CommonPage.mainbody, changeDigits);
@@ -112,17 +109,6 @@ let Department = (function() {
        $(this).addClass("content_menu_left_item_active");
        let info = $(this).find(".info").html();
        $(".content_menu_right-description").html(info);
-    }
-
-    function setWidthForMenuItems() {
-        $(CommonPage.headerMainMenuItem).each(function() {
-            if($(window).width() > 1300) {
-                let setWidth = (parseInt($(this).find("a").text().length) * 12) + "px";
-                $(this).css({
-                    width: setWidth
-                });
-            }
-        });
     }
 
     function scrollup() {
