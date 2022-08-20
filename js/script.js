@@ -133,14 +133,14 @@ let Department = (function() {
         $(this).addClass("structure_button_opened");
         $(this).find("input").val("Скрыть структуру");
         $(this).find(".content_structure_button_showStructure").addClass("rotated");
-        $(CommonPage.contentStructureBottom).slideDown(1500);
+        $(CommonPage.contentStructureBottom).slideDown();
     }
 
     function slideUpStructure() {
         $(this).removeClass("structure_button_opened");
         $(this).find("input").val("Показать структуру");
         $(this).find(".content_structure_button_showStructure").removeClass("rotated");
-        $(CommonPage.contentStructureBottom).slideUp(1500);
+        $(CommonPage.contentStructureBottom).slideUp();
     }
 
     /** end: methods **/
