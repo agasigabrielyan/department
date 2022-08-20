@@ -949,6 +949,58 @@ textarea {
     background: #fff !important;
 }
 
+.open_structure {
+    width: 260px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    background: #4379B7;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 750ms;
+}
+
+.open_structure:hover {
+    background-color: #3978DF;
+}
+
+.open_structure:before {
+    content: "";
+    top: 50%;
+    right: 25px;
+    width: 18px;
+    height: 31px;
+    position: absolute;
+    background-image: url(../img/arrow_down.svg);
+    transform: translateY(-50%);
+    background-repeat: no-repeat;
+}
+
+.open_structure:hover:before {
+    background-image: url(../img/arrow_down_active.svg);
+}
+
+.open_structure span{
+    position: relative;
+    left: -15px;
+}
+.structure_button_opened:before {
+    background-image: url(../img/arrow_up.svg);
+}
+
+.structure_button_opened:hover:before {
+    background-image: url(../img/arrow_up_active.svg);
+}
+
 
 @media screen and (max-width: 1920px) {
 
@@ -1657,7 +1709,6 @@ textarea {
         color: #fff;
         border: 0;
         border-radius: 8px;
-
     }
 
     .rotated {

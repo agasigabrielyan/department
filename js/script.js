@@ -6,7 +6,7 @@ let Department = (function() {
         navicon: ('#nav-icon3'),
         mainmenu: ('.menu-wrapper'),
         scrollupwrapper: ('.scroll-up-wrapper'),
-        contentStructureButton: (".content_structure_button"),
+        contentStructureButton: (".open_structure"),
         contentStructureButtonUp: (".structure_button_opened"),
         contentStructureBottom: ('.content_structure_department__bottom'),
 
@@ -131,15 +131,13 @@ let Department = (function() {
 
     function slideDownStructure() {
         $(this).addClass("structure_button_opened");
-        $(this).find("input").val("Скрыть структуру");
-        $(this).find(".content_structure_button_showStructure").addClass("rotated");
+        $(this).find("span").text("Скрыть структуру");
         $(CommonPage.contentStructureBottom).slideDown();
     }
 
     function slideUpStructure() {
         $(this).removeClass("structure_button_opened");
-        $(this).find("input").val("Показать структуру");
-        $(this).find(".content_structure_button_showStructure").removeClass("rotated");
+        $(this).find("span").text("Показать структуру");
         $(CommonPage.contentStructureBottom).slideUp();
     }
 
