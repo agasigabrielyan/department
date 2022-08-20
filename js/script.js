@@ -22,7 +22,7 @@ let Department = (function() {
     let init = function() {
         $(document).ready(function() {
             changeDigitsOnLoad();
-            setWidthForMenuItems();
+            /*setWidthForMenuItems();*/
         });
         $(document).on('click',CommonPage.link, scrollToAnchor);
         $(document).on('click', CommonPage.navicon, toggleNavIcon);
