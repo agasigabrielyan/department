@@ -6,6 +6,7 @@ let Department = (function() {
         navicon: ('#nav-icon3'),
         mainmenu: ('.menu-wrapper'),
         scrollupwrapper: ('.scroll-up-wrapper'),
+        subitem: ('.content_structure_department_sub_item')
 
         /* main page boxes and data */
         digitsActed: false,
@@ -111,9 +112,7 @@ let Department = (function() {
        $(".content_menu_right-description").html(info);
     }
 
-    function scrollup() {
-       window.scrollTo({top: 0, behavior: 'smooth'});
-    }
+    function scrollup() {window.scrollTo({top: 0, behavior: 'smooth'});}
 
     function hideShowScrollupWrapper() {
         let viewportHeight = window.innerHeight;
