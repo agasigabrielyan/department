@@ -6,7 +6,9 @@ let Department = (function() {
         navicon: ('#nav-icon3'),
         mainmenu: ('.menu-wrapper'),
         scrollupwrapper: ('.scroll-up-wrapper'),
-        subitem: ('.content_structure_department_sub_item'),
+        contentStructureButton: (".content_structure_button"),
+        contentStructureButtonUp: (".structure_button_opened"),
+        contentStructureBottom: ('.content_structure_department__bottom'),
 
         /* main page boxes and data */
         digitsActed: false,
@@ -28,6 +30,8 @@ let Department = (function() {
         $(document).on('scroll', CommonPage.mainbody, hideShowScrollupWrapper);
         $(document).on('click', CommonPage.contentMenuLeftItem, changeMenuDescription);
         $(document).on('click', CommonPage.scrollupwrapper, scrollup);
+        $(document).on('click', CommonPage.contentStructureButton, slideDownStructure);
+        $(document).on("click", CommonPage.contentStructureButtonUp, slideUpStructure);
     }
 
     /** begin: methods **/
@@ -123,6 +127,19 @@ let Department = (function() {
         } else {
             $(CommonPage.scrollupwrapper).addClass("scroll-up-wrapper_hidden");
         }
+    }
+
+    function slideDownStructure() {
+        $(this).addClass("structure_button_opened");
+        $(this).find("input").val("Свернуть структуру");
+        $(this).find(".content_structure_button_showStructure").addClass("rotated");
+        $(CommonPage.contentStructureBottom).slideDown();
+    }
+
+    function slideUpStructure() {
+        $(this).removeClass("structure_button_opened");
+        $(this).find("input").val("Показать структуру");
+        $(CommonPage.contentStructureBottom).slideUp();
     }
 
     /** end: methods **/

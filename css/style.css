@@ -1620,6 +1620,10 @@ textarea {
 
 
 
+    .content_structure_department__bottom {
+        display: none;
+    }
+
 
 
     .content_structure_button {
@@ -1627,12 +1631,13 @@ textarea {
         height: 5.21vw;
         margin: 6.15vw 0 5.73vw 0;
         text-align: center;
-
+        cursor: pointer;
     }
 
 
     .content_structure_button input {
         padding-right: 3.51vw;
+        cursor: pointer;
     }
 
     .content_structure_button_showStructure {
