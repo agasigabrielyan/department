@@ -22,6 +22,7 @@ let Department = (function() {
         /* end: main page boxes */
 
         newspItemLinksCopyLink: (".newsp_item_links_copylink"),
+        newsp_item_readmore: (".newsp_item_readmore"),
     }
 
     let init = function() {
@@ -36,6 +37,7 @@ let Department = (function() {
         $(document).on("click", CommonPage.contentStructureButtonUp, slideUpStructure);
         $(document).on('scroll', $(window), stickMenuOnScroll);
         $(document).on("click", CommonPage.newspItemLinksCopyLink, copyLinkIntoClipboard);
+        $(document).on("click", CommonPage.newsp_item_readmore, openNew);
     }
 
     /** begin: methods **/
@@ -176,9 +178,19 @@ let Department = (function() {
         }
     }
 
-    function cleanCopied(element) {
-       $(element).html("");
+    function cleanCopied(element) {$(element).html("");}
+
+    function openNew() {
+        $(this).parent().find(".newsp_item_text_wrapper").toggleClass("newsp_item_text_wrapper_opened");
+        let currentText = $(this).text();
+        if(currentText === "Свернуть") {
+            $(this).html('<p class="newsp_item_readmore_text">Читать</p><img class="newsp_item_readmore_icon" src="img/news/readmore_chevron_down.svg">');
+        } else {
+            $(this).html('<p class="newsp_item_readmore_text">Свернуть</p><img style="transform: rotate(180deg)" class="newsp_item_readmore_icon" src="img/news/readmore_chevron_down.svg">');
+        }
+
     }
+
 
     /** end: methods **/
 

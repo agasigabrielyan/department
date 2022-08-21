@@ -82,7 +82,7 @@ textarea {
     left: 50%;
     min-width: 120px;
     font-size: 12px;
-    padding: 5px;
+    padding: 5px 10px;
     transform: translateX(-50%);
     border-radius: 6px;
     border: 1px solid #a3a3a3;
@@ -296,12 +296,24 @@ textarea {
         font-weight: bold;
     }
 
+    .newsp_item_text_wrapper {
+        height: 291px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .newsp_item_text_wrapper_opened {
+        height: auto;
+        overflow: auto;
+    }
+
     .newsp_item_text p {
         font-size: 1.25vw;
     }
 
     .newsp_item_readmore {
         float: left;
+        cursor: pointer;
     }
 
     .newsp_item_readmore_text {
