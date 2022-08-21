@@ -172,7 +172,25 @@ let Department = (function() {
     function copyLinkIntoClipboard() {
         let currentLink = $(this).data('href');
         if(currentLink) {
-            navigator.clipboard.writeText(currentLink);
+            if(navigator.clipboard) {
+                navigator.clipboard.writeText(currentLink);
+            } else {
+                let textarea = document.getElementById("for-clipboard");
+                textarea.value = currentLink;
+                textarea.focus();
+                textarea.select();
+
+                try {
+                    var successful = document.execCommand('copy');
+                    var msg = successful ? 'successful' : 'unsuccessful';
+                    console.log('Fallback: Copying text command was ' + msg);
+                    debugger;
+                  } catch (err) {
+                    console.error('Fallback: Oops, unable to copy', err);
+                    debugger;
+                }
+            }
+
             $(this).html("").append("<div class='successfully-copied'>ссылка скопирована</div>");
             setTimeout(() => {cleanCopied(this)},1000);
         }
