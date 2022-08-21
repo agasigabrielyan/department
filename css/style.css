@@ -1289,8 +1289,42 @@ textarea {
         left: -1000000%;
     }
 
+    @media(max-width: 768px) {
+        .content_menu_left_item .info {
+            position: relative;
+            top: auto;
+            left: auto;
+            background-color: #fff;
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 26px;
+            color: #314359;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            display: none;
+        }
+
+        .content_menu_left_item .info:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 100%;
+            width: 100000px;
+            height: 100%;
+            background-color: #fff;
+        }
+    }
+
     .content_menu_left_item_active {
         background-color: #4379B7;
+    }
+
+    .content_menu_left_item_active .info_opened {
+        position: relative;
+        top: auto;
+        left: auto;
     }
 
     .content_menu_right {

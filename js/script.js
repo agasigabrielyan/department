@@ -110,10 +110,17 @@ let Department = (function() {
     }
 
     function changeMenuDescription() {
-       $(CommonPage.contentMenuLeftItem).removeClass("content_menu_left_item_active");
-       $(this).addClass("content_menu_left_item_active");
-       let info = $(this).find(".info").html();
-       $(".content_menu_right-description").html(info);
+        if($(window).width() > 768) {
+           $(CommonPage.contentMenuLeftItem).removeClass("content_menu_left_item_active");
+           $(this).addClass("content_menu_left_item_active");
+           let info = $(this).find(".info").html();
+           $(".content_menu_right-description").html(info);
+        } else {
+            $(CommonPage.contentMenuLeftItem).removeClass("content_menu_left_item_active");
+            $(this).addClass("content_menu_left_item_active");
+            $(".info").hide();
+            $(this).find(".info").show();
+        }
     }
 
     function scrollup() {window.scrollTo({top: 0, behavior: 'smooth'});}
