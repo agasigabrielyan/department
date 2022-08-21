@@ -20,6 +20,8 @@ let Department = (function() {
         aboutStructure: ("#about-structure"),
         statisticDigit: (".statistic-digit"),
         /* end: main page boxes */
+
+        newspItemLinksCopyLink: (".newsp_item_links_copylink"),
     }
 
     let init = function() {
@@ -33,6 +35,7 @@ let Department = (function() {
         $(document).on('click', CommonPage.contentStructureButton, slideDownStructure);
         $(document).on("click", CommonPage.contentStructureButtonUp, slideUpStructure);
         $(document).on('scroll', $(window), stickMenuOnScroll);
+        $(document).on("click", CommonPage.newspItemLinksCopyLink, copyLinkIntoClipboard);
     }
 
     /** begin: methods **/
@@ -162,6 +165,19 @@ let Department = (function() {
             } else {
                 $('.header_main').removeClass('header_main_fixed');
             }
+    }
+
+    function copyLinkIntoClipboard() {
+        let currentLink = $(this).data('href');
+        if(currentLink) {
+            navigator.clipboard.writeText(currentLink);
+            $(this).html("").append("<div class='successfully-copied'>ссылка скопирована</div>");
+            setTimeout(() => {cleanCopied(this)},2000);
+        }
+    }
+
+    function cleanCopied(element) {
+       $(element).html("");
     }
 
     /** end: methods **/
