@@ -42,13 +42,17 @@ let Department = (function() {
         let dataId = this.dataset.id;
         let element = document.getElementById(dataId);
 
-        let top = element.offsetTop;
+        let top = parseInt(element.offsetTop) - 150;
         let left = element.offsetLeft;
 
         // скроллим до текущего загруженного элемента
         setTimeout(function() {
             window.scrollTo(
-                {top: top,left: left,behavior: 'smooth'}
+                {
+                    top: top,
+                    left: left,
+                    behavior: 'smooth'
+                }
             );
         }, 250);
 
@@ -66,6 +70,7 @@ let Department = (function() {
     }
 
     function changeDigitsOnLoad() {
+        if($(CommonPage.aboutStatistics)[0]) {
             let offsetTopPositionOfStatiscs = $(CommonPage.aboutStatistics)[0].offsetTop;
             let alreadyScrolled = window.scrollY;
 
@@ -73,7 +78,7 @@ let Department = (function() {
             if(difference <= 0) {
                 changeDigitValues();
             }
-
+        }
     }
 
     function changeDigitValues() {
@@ -101,13 +106,15 @@ let Department = (function() {
     }
 
     function isScrolledIntoView(elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
+        if(($(elem).length) > 0) {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
 
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
 
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        }
     }
 
     function changeMenuDescription() {
