@@ -170,34 +170,7 @@ let Department = (function() {
     function copyLinkIntoClipboard() {
         let currentLink = $(this).data('href');
         if(currentLink) {
-            /* ------------------------------------------ */
-            if (typeof(navigator.clipboard)=='undefined') {
-                console.log('navigator.clipboard');
-                var textArea = document.createElement("textarea");
-                textArea.value = currentLink;
-                textArea.style.position="fixed";  //avoid scrolling to bottom
-                document.body.appendChild(textArea);
-                textArea.focus();
-                textArea.select();
-
-                try {
-                    var successful = document.execCommand('copy');
-                    var msg = successful ? 'successful' : 'unsuccessful';
-                    toastr.info(msg);
-                } catch (err) {
-                    toastr.warning('Was not possible to copy te text: ', err);
-                }
-
-                document.body.removeChild(textArea)
-                return;
-            }
-            navigator.clipboard.writeText(currentLin).then(function() {
-                toastr.info(`successful!`);
-            }, function(err) {
-                toastr.warning('unsuccessful!', err);
-            });
-
-            /* ------------------------------------------ */
+            navigator.clipboard.writeText(currentLink);
             $(this).html("").append("<div class='successfully-copied'>ссылка скопирована</div>");
             setTimeout(() => {cleanCopied(this)},1000);
         }
