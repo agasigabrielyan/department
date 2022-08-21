@@ -25,10 +25,26 @@ textarea {
 }
 
 .header_main {
-
     min-height: 7.3vw;
     width: 100vw;
     min-width: 768px;
+    transition: top 750ms;
+}
+
+.header_main_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 0 15px #ccc;
+    /*transition: all 150ms;*/
+}
+
+@media(max-width: 768px) {
+    .header_main_fixed {
+        min-height: 20vw;
+    }
 }
 
 .scroll-up-wrapper {

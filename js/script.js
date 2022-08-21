@@ -32,6 +32,7 @@ let Department = (function() {
         $(document).on('click', CommonPage.scrollupwrapper, scrollup);
         $(document).on('click', CommonPage.contentStructureButton, slideDownStructure);
         $(document).on("click", CommonPage.contentStructureButtonUp, slideUpStructure);
+        $(document).on('scroll', $(window), stickMenuOnScroll);
     }
 
     /** begin: methods **/
@@ -146,6 +147,14 @@ let Department = (function() {
         $(this).removeClass("structure_button_opened");
         $(this).find("span").text("Показать структуру");
         $(CommonPage.contentStructureBottom).slideUp();
+    }
+
+    function stickMenuOnScroll() {
+        if ($(window).scrollTop() > 50) {
+                $('.header_main').addClass('header_main_fixed');
+            } else {
+                $('.header_main').removeClass('header_main_fixed');
+            }
     }
 
     /** end: methods **/
