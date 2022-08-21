@@ -18,7 +18,7 @@ let Department = (function() {
         aboutDepartment: ("#about-department"),
         aboutStatistics: ("#about-statistics"),
         aboutStructure: ("#about-structure"),
-        statisticDigit: (".statistic-digit")
+        statisticDigit: (".statistic-digit"),
         /* end: main page boxes */
     }
 
