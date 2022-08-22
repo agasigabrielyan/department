@@ -20,9 +20,8 @@ textarea {
 
 .newsp_item {
     width: 62.76vw;
-    min-height: 36.2vw;
     margin: 0 0 1.88vw 4.17vw;
-    padding: 0 2.29vw 2.71vw 2.29vw;
+    padding: 2.71vw 2.29vw 4vw 2.29vw;
     box-sizing: border-box;
     border: 1px solid #9A9A9A;
 
@@ -38,6 +37,10 @@ textarea {
     font-size: 1.98vw;
     color: #314359;
     font-weight: bold;
+}
+
+.newsp_item_text {
+    min-height: 14.58vw;
 }
 
 .newsp_item_text p {
@@ -276,12 +279,15 @@ textarea {
 
     .newsp_item {
         width: 62.76vw;
-        min-height: 36.2vw;
         margin: 0 0 1.88vw 4.17vw;
-        padding: 0 2.29vw 2.71vw 2.29vw;
+        padding: 2.71vw 2.29vw 2.71vw 2.29vw;
         box-sizing: border-box;
         border: 1px solid #9A9A9A;
 
+    }
+
+    .newsp_item_text {
+        min-height: 14.58vw;
     }
 
     .newsp_item_date {
@@ -516,6 +522,7 @@ textarea {
 
     .newsp_label_text {
         font-size: 7.03vw;
+        width: 50vw;
     }
 
     /* News Item */
@@ -524,10 +531,14 @@ textarea {
         width: 86.14vw;
         min-height: 54.3vw;
         margin: 0 0 2.81vw 6.25vw;
-        padding: 0 3.44vw 4.06vw 3.44vw;
+        padding: 4.06vw 3.44vw 4.06vw 3.44vw;
         box-sizing: border-box;
         border: 1px solid #9A9A9A;
 
+    }
+
+    .newsp_item_text {
+        min-height: 20.31vw;
     }
 
     .newsp_item_date {
@@ -757,12 +768,15 @@ textarea {
 
     .newsp_item {
         width: 90vw;
-        min-height: 108vw;
+        min-height: 90vw;
         margin: 0 0 4.69vw 4vw;
-        padding: 0 3.8vw 8.69vw 3.8vw;
+        padding: 8.69vw 3.8vw 8.69vw 3.8vw;
         box-sizing: border-box;
         border: 1px solid #9A9A9A;
+    }
 
+    .newsp_item_text {
+        min-height: 40vw;
     }
 
     .newsp_item_date {
