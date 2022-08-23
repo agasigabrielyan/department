@@ -424,6 +424,12 @@ textarea {
     vertical-align: middle;
 }
 
+.content_menu_left_item .info {
+    position: fixed;
+    top: -1000000%;
+    left: -1000000%;
+}
+
 .content_menu_left_item_active {
     width: 38vw;
     height: 6.77vw;
@@ -432,6 +438,8 @@ textarea {
     display: table-cell;
     vertical-align: middle;
 }
+
+
 
 .content_menu_left_text {
     display: none;
