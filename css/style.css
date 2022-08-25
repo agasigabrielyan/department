@@ -242,8 +242,13 @@ textarea {
 /* LABEL  MORE  THAN  1920*/
 
 .content_label {
-    height: 4.88vw;
     margin-left: 4.17vw;
+    display: inline-block;
+    margin-bottom: 3.75vw;
+}
+
+.content_label p{
+    margin: 0;
 }
 
 .content_label_name {
@@ -283,7 +288,7 @@ textarea {
 
 
 .content_documents_list {
-    margin: 0.63vw 0 0 4.17vw;
+    margin: 0 0 0 4.17vw;
     float: left;
 }
 
@@ -1208,9 +1213,13 @@ textarea {
     /* LABEL 1920 */
 
     .content_label {
-        height: 6.88vw;
         margin-left: 4.17vw;
-        ;
+        display: inline-block;
+        margin-bottom: 3.75vw;
+    }
+
+    .content_label p{
+        margin: 0;
     }
 
     .content_label_name {
@@ -1252,7 +1261,7 @@ textarea {
 
 
     .content_documents_list {
-        margin: 0.63vw 0 0 4.17vw;
+        margin: 0 0 0 4.17vw;
         float: left;
     }
 
@@ -2106,8 +2115,13 @@ textarea {
     /* LABEL 1280 */
 
     .content_label {
-        height: 6.38vw;
         margin-left: 6.64vw;
+        display: inline-block;
+        margin-bottom: 5.63vw;
+    }
+
+    .content_label p{
+        margin: 0;
     }
 
     .content_label_name {
@@ -2150,7 +2164,7 @@ textarea {
 
 
     .content_documents_list {
-        margin: 0.94vw 0 0 6.64vw;
+        margin: 0 0 0 6.64vw;
         float: left;
     }
 
@@ -2913,8 +2927,13 @@ textarea {
     /* LABEL 768 */
 
     .content_label {
-        height: 12.19vw;
         margin-left: 5.73vw;
+        display: inline-block;
+        margin-bottom: 9.38vw;
+    }
+
+    .content_label p{
+        margin: 0;
     }
 
     .content_label_name {
@@ -2954,7 +2973,7 @@ textarea {
 
 
     .content_documents_list {
-        margin: 1.56vw 0 0 0;
+        margin: 0;
         width: 100vw;
         min-height: 17.58vw;
         float: left;
