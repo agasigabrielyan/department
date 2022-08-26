@@ -24,6 +24,7 @@ textarea {
 
 .newsp_item {
     width: 62.76vw;
+    min-height: 34.2vw;
     margin: 0 0 1.88vw 4.17vw;
     padding: 2.71vw 2.29vw 4vw 2.29vw;
     box-sizing: border-box;
@@ -55,9 +56,17 @@ textarea {
     float: left;
 }
 
-.newsp_item_readmore_text {
+.newsp_item_readmore a,
+.newsp_item_readmore a:visited {
     display: inline-block;
+    color: #314359;
+    text-decoration: none;
     margin: 0.36vw 0;
+    font-size: 1.25vw
+}
+
+.newsp_item_readmore a:hover {
+    color: #EE7049;
 }
 
 .newsp_item_readmore_icon {
@@ -283,6 +292,7 @@ textarea {
 
     .newsp_item {
         width: 62.76vw;
+        min-height: 36.2vw;
         margin: 0 0 1.88vw 4.17vw;
         padding: 2.71vw 2.29vw 2.71vw 2.29vw;
         box-sizing: border-box;
@@ -326,9 +336,17 @@ textarea {
         cursor: pointer;
     }
 
-    .newsp_item_readmore_text {
+    .newsp_item_readmore a,
+    .newsp_item_readmore a:visited {
         display: inline-block;
+        color: #314359;
+        text-decoration: none;
         margin: 0.36vw 0;
+        font-size: 1.25vw
+    }
+    
+    .newsp_item_readmore a:hover {
+        color: #EE7049;
     }
 
     .newsp_item_readmore_icon {
@@ -533,7 +551,7 @@ textarea {
 
     .newsp_item {
         width: 86.14vw;
-        min-height: 54.3vw;
+        min-height: 48.3vw;
         margin: 0 0 2.81vw 6.25vw;
         padding: 4.06vw 3.44vw 4.06vw 3.44vw;
         box-sizing: border-box;
@@ -565,9 +583,17 @@ textarea {
         float: left;
     }
 
-    .newsp_item_readmore_text {
+    .newsp_item_readmore a,
+    .newsp_item_readmore a:visited {
         display: inline-block;
-        margin: 0.55vw 0;
+        color: #314359;
+        text-decoration: none;
+        margin: 0.36vw 0;
+        font-size: 1.88vw
+    }
+    
+    .newsp_item_readmore a:hover {
+        color: #EE7049;
     }
 
     .newsp_item_readmore_icon {
@@ -803,9 +829,17 @@ textarea {
         float: left;
     }
 
-    .newsp_item_readmore_text {
+    .newsp_item_readmore a,
+    .newsp_item_readmore a:visited {
         display: inline-block;
+        color: #314359;
+        text-decoration: none;
         margin: 0.91vw 0;
+        font-size: 3.13vw
+    }
+    
+    .newsp_item_readmore a:hover {
+        color: #EE7049;
     }
 
     .newsp_item_readmore_icon {

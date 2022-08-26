@@ -24,7 +24,7 @@ textarea {
 
 .column_item {
     width: 62.76vw;
-    min-height: 36.2vw;
+    min-height: 48.3vw;
     margin: 0 0 1.88vw 4.17vw;
     padding: 0 2.29vw 2.71vw 2.29vw;
     box-sizing: border-box;
@@ -297,7 +297,7 @@ textarea {
 
     .column_item {
         width: 62.76vw;
-        min-height: 36.2vw;
+        min-height: 32.2vw;
         margin: 0 0 1.88vw 4.17vw;
         padding: 0 2.29vw 2.71vw 2.29vw;
         box-sizing: border-box;
@@ -576,7 +576,7 @@ textarea {
 
     .column_item {
         width: 86.14vw;
-        min-height: 54.3vw;
+        min-height: 48.3vw;
         margin: 0 0 2.81vw 6.25vw;
         padding: 0 3.44vw 4.06vw 3.44vw;
         box-sizing: border-box;
@@ -861,7 +861,7 @@ textarea {
 
     .column_item {
         width: 90vw;
-        min-height: 108vw;
+        min-height: 90vw;
         margin: 0 0 4.69vw 4vw;
         padding: 0 3.8vw 8.69vw 3.8vw;
         box-sizing: border-box;
