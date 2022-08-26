@@ -1,3 +1,7 @@
+body {
+    background: #fff;
+}
+
 input,
 textarea {
     font-family: 'IBM Plex Sans';
