@@ -32,6 +32,12 @@ textarea {
     border-radius: 8px;
 }
 
+
+.newsp_item_links a{
+    text-decoration: none;
+    }
+
+
 .newsp_item_date {
     font-size: 0.94vw;
     color: #9A9A9A;
@@ -67,6 +73,10 @@ textarea {
 
 .newsp_item_readmore a:hover {
     color: #EE7049;
+}
+
+.newsp_item_readmore p{
+    display: inline-block;
 }
 
 .newsp_item_readmore_icon {
@@ -135,6 +145,7 @@ textarea {
 
 .newsp_item_links_sharelink:hover {
     background: url('../img/news/sharelink_active.svg') no-repeat;
+    background-size: 2.14vw 2.14vw;
 }
 
 
@@ -386,6 +397,7 @@ textarea {
 
     .newsp_item_links_sharelink:hover {
         background: url('../img/news/sharelink_active.svg') no-repeat;
+        background-size: 2.14vw 2.14vw;
     }
 
 
@@ -551,7 +563,7 @@ textarea {
 
     .newsp_item {
         width: 86.14vw;
-        min-height: 48.3vw;
+        min-height: 53.3vw;
         margin: 0 0 2.81vw 6.25vw;
         padding: 4.06vw 3.44vw 4.06vw 3.44vw;
         box-sizing: border-box;

@@ -604,6 +604,10 @@ textarea {
         float: left;
     }
 
+    .newsp_item_readmore p{
+        display: inline-block;
+    }
+
     .column_item_readmore_text {
         display: inline-block;
         margin: 0.55vw 0;
