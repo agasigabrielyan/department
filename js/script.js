@@ -23,6 +23,7 @@ let Department = (function() {
 
         newspItemLinksCopyLink: (".newsp_item_links_copylink"),
         newsp_item_readmore: (".newsp_item_readmore"),
+        windowWidth:  $(window).width(),
     }
 
     let init = function() {
@@ -47,7 +48,19 @@ let Department = (function() {
         let dataId = this.dataset.id;
         let element = document.getElementById(dataId);
 
-        let top = parseInt(element.offsetTop) - 150;
+        let sizeWindowWidth = CommonPage.windowWidth;
+
+        let rollback = $(".header_main").height();
+        let additionalHeight = 0;
+
+
+        if(!($(".header_main").hasClass("header_main_fixed"))) {
+            if($("#"+dataId).hasClass("content_label")) {
+                additionalHeight = parseFloat($("#"+dataId).outerHeight(true));
+            }
+        }
+
+        let top = parseFloat(element.offsetTop) - (parseFloat(rollback) + (additionalHeight + 15));
         let left = element.offsetLeft;
 
         // скроллим до текущего загруженного элемента
