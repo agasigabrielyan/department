@@ -55,8 +55,10 @@ let Department = (function() {
 
 
         if(!($(".header_main").hasClass("header_main_fixed"))) {
+            debugger;
             if($("#"+dataId).hasClass("content_label")) {
-                additionalHeight = parseFloat($("#"+dataId).outerHeight(true));
+                debugger;
+                additionalHeight = (parseFloat($("#"+dataId).outerHeight(true))) + 18;
             }
         }
 
