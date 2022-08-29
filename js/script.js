@@ -23,6 +23,7 @@ let Department = (function() {
 
         newspItemLinksCopyLink: (".newsp_item_links_copylink"),
         newsp_item_readmore: (".newsp_item_readmore"),
+        windowWidth:  $(window).width(),
     }
 
     let init = function() {
@@ -47,7 +48,21 @@ let Department = (function() {
         let dataId = this.dataset.id;
         let element = document.getElementById(dataId);
 
-        let top = parseInt(element.offsetTop) - 150;
+        let sizeWindowWidth = CommonPage.windowWidth;
+
+        let rollback = $(".header_main").height();
+        let additionalHeight = 0;
+
+
+        if(!($(".header_main").hasClass("header_main_fixed"))) {
+            debugger;
+            if($("#"+dataId).hasClass("content_label")) {
+                debugger;
+                additionalHeight = (parseFloat($("#"+dataId).outerHeight(true))) + 18;
+            }
+        }
+
+        let top = parseFloat(element.offsetTop) - (parseFloat(rollback) + additionalHeight);
         let left = element.offsetLeft;
 
         // скроллим до текущего загруженного элемента
@@ -162,11 +177,14 @@ let Department = (function() {
     }
 
     function stickMenuOnScroll() {
-        if ($(window).scrollTop() > 50) {
+        let current_url = window.location.href;
+        if( (window.location.href.indexOf("main.html"))>0 || window.location.pathname == '/' ) {
+            if ($(window).scrollTop() > 50) {
                 $('.header_main').addClass('header_main_fixed');
             } else {
                 $('.header_main').removeClass('header_main_fixed');
             }
+        }
     }
 
     function copyLinkIntoClipboard() {
