@@ -61,7 +61,7 @@ let Department = (function() {
                 additionalHeight = (parseFloat($("#"+dataId).outerHeight(true))) + 18;
             }
         }
-
+        debugger;
         let top = parseFloat(element.offsetTop) - (parseFloat(rollback) + additionalHeight);
         let left = element.offsetLeft;
 
