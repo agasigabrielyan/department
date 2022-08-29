@@ -162,11 +162,15 @@ let Department = (function() {
     }
 
     function stickMenuOnScroll() {
-        if ($(window).scrollTop() > 50) {
+        let current_url = window.location.href;
+        debugger;
+        if( (window.location.href.indexOf("main.html"))>0 || window.location.pathname == '/' ) {
+            if ($(window).scrollTop() > 50) {
                 $('.header_main').addClass('header_main_fixed');
             } else {
                 $('.header_main').removeClass('header_main_fixed');
             }
+        }
     }
 
     function copyLinkIntoClipboard() {
