@@ -60,7 +60,7 @@ let Department = (function() {
             }
         }
 
-        let top = parseFloat(element.offsetTop) - (parseFloat(rollback) + (additionalHeight + 15));
+        let top = parseFloat(element.offsetTop) - (parseFloat(rollback) + additionalHeight);
         let left = element.offsetLeft;
 
         // скроллим до текущего загруженного элемента
