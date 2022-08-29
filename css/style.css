@@ -766,15 +766,14 @@ textarea {
     height: 20.83vw;
 }
 
-.content_structure_department_item_text{
+.content_structure_department_item_text {
     padding: 1.67vw 0.7vw;
     box-sizing: border-box;
     min-height: 19vw;
 }
 
 .content_structure_department_item_text_name,
-.content_structure_department_item_text_name:visited
- {
+.content_structure_department_item_text_name:visited {
     font-size: 1.25vw;
     color: #314359;
     border-bottom: 1px solid #BDD8F6;
@@ -804,7 +803,7 @@ textarea {
     font-size: 1.98vw;
     font-weight: bold;
     color: #314359;
-    padding: 0.73vw 0.63vw ;
+    padding: 0.73vw 0.63vw;
     margin: 0;
 }
 
@@ -845,7 +844,7 @@ textarea {
     text-decoration: none;
 }
 
-.content_structure_department_sub_item_text_name a:hover{
+.content_structure_department_sub_item_text_name a:hover {
     color: #EE7049;
 }
 
@@ -892,7 +891,7 @@ textarea {
 
 .content_structure_department_sub2_item {
     width: 20.83vw;
-   min-height: 12.5vw;
+    min-height: 12.5vw;
     margin-right: 1.46vw;
     background-color: #F8FAFD;
     float: left;
@@ -931,14 +930,11 @@ textarea {
     margin: 0;
 }
 
-
-
 .content_structure_button {
     width: 100vw;
     height: 5.21vw;
     margin: 6.15vw 0 5.73vw 0;
     text-align: center;
-
 }
 
 .content_structure_button input {
@@ -1107,23 +1103,20 @@ textarea {
 }
 
 .open_structure {
-    width: 260px;
-    height: 54px;
+    width: 20.52vw;
+    height: 4.27vw;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 30px auto;
-    background: #4379B7;
     border-radius: 8px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 31px;
-    padding-left: 15px;
-    padding-right: 15px;
+    font-size: 1.25vw;
+    font-weight: bold;
+    background: #4379B7;
+    color: #FFF;
+    background-size: 1.04vw 1.82vw;
     position: relative;
     cursor: pointer;
-    transition: background-color 750ms;
 }
 
 .open_structure:hover {
@@ -1133,11 +1126,12 @@ textarea {
 .open_structure:before {
     content: "";
     top: 50%;
-    right: 25px;
-    width: 18px;
-    height: 31px;
+    right: 2.54vw;
+    width: 1.04vw;
+    height: 1.82vw;
     position: absolute;
     background-image: url(../img/arrow_down.svg);
+    background-size: cover;
     transform: translateY(-50%);
     background-repeat: no-repeat;
 }
@@ -1841,26 +1835,25 @@ textarea {
         height: 20.83vw;
     }
 
-    .content_structure_department_item_text{
+    .content_structure_department_item_text {
         padding: 1.67vw 0.6vw;
         box-sizing: border-box;
         min-height: 19vw;
     }
-    
+
     .content_structure_department_item_text_name,
-    .content_structure_department_item_text_name:visited
-     {
+    .content_structure_department_item_text_name:visited {
         font-size: 1.25vw;
         color: #314359;
         border-bottom: 1px solid #BDD8F6;
         text-decoration: none;
         font-weight: bold;
     }
-    
+
     .content_structure_department_item_text_name:hover {
         color: #EE7049;
     }
-    
+
     .content_structure_department_item_text_position {
         font-size: 1.25vw;
         color: #9A9A9A;
@@ -1877,7 +1870,7 @@ textarea {
         font-size: 2.58vw;
         font-weight: bold;
         color: #314359;
-        padding: 0.73vw 0.63vw ;
+        padding: 0.73vw 0.63vw;
     }
 
     .content_structure_department_item_text_code_v {
@@ -1905,7 +1898,7 @@ textarea {
         min-height: 3.6vw;
     }
 
- 
+
 
     .content_structure_department_sub_item_text_name a,
     .content_structure_department_sub_item_text_name a:visited {
@@ -1917,7 +1910,7 @@ textarea {
         text-decoration: none;
     }
 
-    .content_structure_department_sub_item_text_name a:hover{
+    .content_structure_department_sub_item_text_name a:hover {
         color: #EE7049;
     }
 
@@ -1978,7 +1971,7 @@ textarea {
         height: 1.6vw;
         margin: 1.5vw 0;
     }
-    
+
     .content_structure_department_sub2_item_text_name a,
     .content_structure_department_sub2_item_text_name a:visited {
         border-bottom: 1px solid #BDD8F6;
@@ -1991,7 +1984,7 @@ textarea {
 
     .content_structure_department_sub2_item_text_name a:hover {
         color: #EE7049;
-    }    
+    }
 
     .content_structure_department_sub2_item_text_position {
         height: 3.33vw;
@@ -2010,8 +2003,6 @@ textarea {
         display: none;
     }
 
-
-
     .content_structure_button {
         width: 100vw;
         height: 5.21vw;
@@ -2019,7 +2010,6 @@ textarea {
         text-align: center;
         cursor: pointer;
     }
-
 
     .content_structure_button input {
         padding-right: 3.51vw;
@@ -2050,14 +2040,62 @@ textarea {
         border-radius: 8px;
     }
 
-    .rotated {
-        background-image: url('../img/arrow_up.svg');
+
+    /* Кнопка Показать/скрыть структуру */
+
+    .open_structure {
+        width: 20.52vw;
+        height: 4.27vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto;
+        border-radius: 8px;
+        font-size: 1.25vw;
+        font-weight: bold;
+        background: #4379B7;
+        color: #FFF;
+        background-size: 1.04vw 1.82vw;
+        position: relative;
+        cursor: pointer;
     }
 
-    .rotated:hover {
-        background-image: url('../img/arrow_up_active.svg');
+    .open_structure:hover {
+        background-color: #3978DF;
     }
 
+    .open_structure:before {
+        content: "";
+        top: 50%;
+        right: 2.54vw;
+        width: 1.04vw;
+        height: 1.82vw;
+        position: absolute;
+        background-image: url(../img/arrow_down.svg);
+        background-size: cover;
+        transform: translateY(-50%);
+        background-repeat: no-repeat;
+    }
+
+    .open_structure:hover:before {
+        background-image: url(../img/arrow_down_active.svg);
+    }
+
+    .open_structure span {
+        position: relative;
+        left: -15px;
+    }
+
+    .structure_button_opened:before {
+        background-image: url(../img/arrow_up.svg);
+    }
+
+    .structure_button_opened:hover:before {
+        background-image: url(../img/arrow_up_active.svg);
+    }
+
+
+    /**/
 
     .content_structure_button_hideStructure {
         width: 18.52vw;
@@ -2104,7 +2142,7 @@ textarea {
     }
 
     .footer_menu_item a,
-    .footer_menu_item a:visited{
+    .footer_menu_item a:visited {
         margin-top: 0.36vw;
         margin-top: 1.56vw;
         color: #314359;
@@ -2112,7 +2150,7 @@ textarea {
         border-bottom: 1px solid #BDD8F6;
     }
 
-    .footer_menu_item a:hover{
+    .footer_menu_item a:hover {
         color: #EE7049;
     }
 
@@ -2757,26 +2795,25 @@ textarea {
         height: 20.83vw;
     }
 
-    .content_structure_department_item_text{
+    .content_structure_department_item_text {
         padding: 1.67vw 0.6vw;
         box-sizing: border-box;
         /* min-height: 19vw; */
     }
-    
+
     .content_structure_department_item_text_name,
-    .content_structure_department_item_text_name:visited
-     {
+    .content_structure_department_item_text_name:visited {
         font-size: 1.25vw;
         color: #314359;
         border-bottom: 1px solid #BDD8F6;
         text-decoration: none;
         font-weight: bold;
     }
-    
+
     .content_structure_department_item_text_name:hover {
         color: #EE7049;
     }
-    
+
     .content_structure_department_item_text_position {
         font-size: 1.25vw;
         color: #9A9A9A;
@@ -2823,7 +2860,7 @@ textarea {
         margin: 0;
     }
 
-    
+
     .content_structure_department_sub_item_text_name a,
     .content_structure_department_sub_item_text_name a:visited {
         border-bottom: 1px solid #BDD8F6;
@@ -2834,7 +2871,7 @@ textarea {
         text-decoration: none;
     }
 
-    .content_structure_department_sub_item_text_name a:hover{
+    .content_structure_department_sub_item_text_name a:hover {
         color: #EE7049;
     }
 
@@ -2902,10 +2939,10 @@ textarea {
     }
 
     .content_structure_department_sub2_item_text_name {
-       min-height: 3.6vw;
+        min-height: 3.6vw;
         margin: 0.5vw 0;
     }
-    
+
     .content_structure_department_sub2_item_text_name a,
     .content_structure_department_sub2_item_text_name a:visited {
         border-bottom: 1px solid #BDD8F6;
@@ -2918,7 +2955,7 @@ textarea {
 
     .content_structure_department_sub2_item_text_name a:hover {
         color: #EE7049;
-    }    
+    }
 
     .content_structure_department_sub2_item_text_position {
         height: 3.33vw;
@@ -2932,6 +2969,63 @@ textarea {
     }
 
 
+
+    /* Кнопка Показать/скрыть структуру */
+
+    .open_structure {
+        width: 20.52vw;
+        height: 4.27vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto;
+        border-radius: 8px;
+        font-size: 1.25vw;
+        font-weight: bold;
+        background: #4379B7;
+        color: #FFF;
+        background-size: 1.04vw 1.82vw;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .open_structure:hover {
+        background-color: #3978DF;
+    }
+
+    .open_structure:before {
+        content: "";
+        top: 50%;
+        right: 2.54vw;
+        width: 1.04vw;
+        height: 1.82vw;
+        position: absolute;
+        background-image: url(../img/arrow_down.svg);
+        background-size: cover;
+        transform: translateY(-50%);
+        background-repeat: no-repeat;
+    }
+
+    .open_structure:hover:before {
+        background-image: url(../img/arrow_down_active.svg);
+    }
+
+    .open_structure span {
+        position: relative;
+        left: -15px;
+    }
+
+    .structure_button_opened:before {
+        background-image: url(../img/arrow_up.svg);
+    }
+
+    .structure_button_opened:hover:before {
+        background-image: url(../img/arrow_up_active.svg);
+    }
+
+
+    /**/
+
     .content_structure_button {
         width: 100vw;
         height: 5.21vw;
@@ -2943,6 +3037,9 @@ textarea {
     .content_structure_button input {
         padding-right: 3.51vw;
     }
+
+   
+
 
     .content_structure_button_showStructure {
         width: 20.52vw;
@@ -3016,7 +3113,7 @@ textarea {
     }
 
     .footer_menu_item a,
-    .footer_menu_item a:visited{
+    .footer_menu_item a:visited {
         margin-top: 0.36vw;
         margin-top: 1.56vw;
         color: #314359;
@@ -3024,7 +3121,7 @@ textarea {
         border-bottom: 1px solid #BDD8F6;
     }
 
-    .footer_menu_item a:hover{
+    .footer_menu_item a:hover {
         color: #EE7049;
     }
 
@@ -3670,27 +3767,26 @@ textarea {
         height: 43.5vw;
     }
 
-    
-    .content_structure_department_item_text{
-        padding: 2.67vw  1.52vw;
+
+    .content_structure_department_item_text {
+        padding: 2.67vw 1.52vw;
         box-sizing: border-box;
         /* min-height: 19vw; */
     }
-    
+
     .content_structure_department_item_text_name,
-    .content_structure_department_item_text_name:visited
-     {
+    .content_structure_department_item_text_name:visited {
         font-size: 2.6vw;
         color: #314359;
         border-bottom: 1px solid #BDD8F6;
         text-decoration: none;
         font-weight: bold;
     }
-    
+
     .content_structure_department_item_text_name:hover {
         color: #EE7049;
     }
-    
+
 
     .content_structure_department_item_text_position {
         font-size: 2.6vw;
@@ -3741,7 +3837,7 @@ textarea {
         text-decoration: none;
     }
 
-    .content_structure_department_sub_item_text_name a:hover{
+    .content_structure_department_sub_item_text_name a:hover {
         color: #EE7049;
     }
 
@@ -3810,23 +3906,23 @@ textarea {
 
     .content_structure_department_sub2_item_text_name {
         min-height: 3.6vw;
-         margin: 0.5vw 0;
-     }
-     
-     .content_structure_department_sub2_item_text_name a,
-     .content_structure_department_sub2_item_text_name a:visited {
-         border-bottom: 1px solid #BDD8F6;
-         line-height: 4vw;
-         font-size: 2.5vw;
-         color: #314359;
-         margin: 0;
-         text-decoration: none;
-     }
- 
-     .content_structure_department_sub2_item_text_name a:hover {
-         color: #EE7049;
-     }    
- 
+        margin: 0.5vw 0;
+    }
+
+    .content_structure_department_sub2_item_text_name a,
+    .content_structure_department_sub2_item_text_name a:visited {
+        border-bottom: 1px solid #BDD8F6;
+        line-height: 4vw;
+        font-size: 2.5vw;
+        color: #314359;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    .content_structure_department_sub2_item_text_name a:hover {
+        color: #EE7049;
+    }
+
 
     .content_structure_department_sub2_item_text_position {
         min-height: auto;
@@ -3838,6 +3934,62 @@ textarea {
         color: #9A9A9A;
         margin: 0;
     }
+
+     /* Кнопка Показать/скрыть структуру */
+
+     .open_structure {
+        width: 50.3vw;
+        height: 10.68vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px auto;
+        border-radius: 8px;
+        font-size: 3.13vw;
+        font-weight: bold;
+        background: #4379B7;
+        color: #FFF;
+        background-size: 1.04vw 1.82vw;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .open_structure:hover {
+        background-color: #3978DF;
+    }
+
+    .open_structure:before {
+        content: "";
+        top: 50%;
+        right: 4.54vw;
+        width: 2.5vw;
+        height: 4.32vw;
+        position: absolute;
+        background-image: url(../img/arrow_down.svg);
+        background-size: cover;
+        transform: translateY(-50%);
+        background-repeat: no-repeat;
+    }
+
+    .open_structure:hover:before {
+        background-image: url(../img/arrow_down_active.svg);
+    }
+
+    .open_structure span {
+        position: relative;
+        left: -15px;
+    }
+
+    .structure_button_opened:before {
+        background-image: url(../img/arrow_up.svg);
+    }
+
+    .structure_button_opened:hover:before {
+        background-image: url(../img/arrow_up_active.svg);
+    }
+
+
+    /**/
 
     .content_structure_button {
         width: 100vw;
@@ -3922,7 +4074,7 @@ textarea {
     }
 
     .footer_menu_item a,
-    .footer_menu_item a:visited{
+    .footer_menu_item a:visited {
         margin-top: 0.36vw;
         margin-top: 1.56vw;
         color: #314359;
@@ -3930,7 +4082,7 @@ textarea {
         border-bottom: 1px solid #BDD8F6;
     }
 
-    .footer_menu_item a:hover{
+    .footer_menu_item a:hover {
         color: #EE7049;
     }
 
