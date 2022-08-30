@@ -55,13 +55,11 @@ let Department = (function() {
 
 
         if(!($(".header_main").hasClass("header_main_fixed"))) {
-            debugger;
             if($("#"+dataId).hasClass("content_label")) {
-                debugger;
                 additionalHeight = (parseFloat($("#"+dataId).outerHeight(true))) + 18;
             }
         }
-        debugger;
+
         let top = parseFloat(element.offsetTop) - (parseFloat(rollback) + additionalHeight);
         let left = element.offsetLeft;
 
@@ -202,10 +200,8 @@ let Department = (function() {
                     var successful = document.execCommand('copy');
                     var msg = successful ? 'successful' : 'unsuccessful';
                     console.log('Fallback: Copying text command was ' + msg);
-                    debugger;
                   } catch (err) {
                     console.error('Fallback: Oops, unable to copy', err);
-                    debugger;
                 }
             }
 
