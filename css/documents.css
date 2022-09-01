@@ -138,7 +138,7 @@ textarea {
     color: #314359;
 }
 
-.documents_list_item_label p:hover {
+.documents_list_item:hover p.documents_list_item_link {
     color: #EE7049;
 }
 
@@ -327,7 +327,7 @@ textarea {
         color: #314359;
     }
 
-    .documents_list_item_label p:hover {
+    .documents_list_item:hover p.documents_list_item_link {
         color: #EE7049;
     }
 
@@ -517,7 +517,7 @@ textarea {
         color: #314359;
     }
 
-    .documents_list_item_label p:hover {
+    .documents_list_item:hover p.documents_list_item_link {
         color: #EE7049;
     }
 
@@ -705,7 +705,7 @@ textarea {
         color: #314359;
     }
 
-    .documents_list_item_label p:hover {
+    .documents_list_item:hover p.documents_list_item_link {
         color: #EE7049;
     }
 
